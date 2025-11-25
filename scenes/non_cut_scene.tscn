@@ -1,0 +1,88 @@
+[gd_scene load_steps=8 format=3 uid="uid://c235bqx80dpdo"]
+
+[ext_resource type="PackedScene" uid="uid://csakogidat51e" path="res://mesh/furnitures/franpeppe.tscn" id="2_2dqff"]
+[ext_resource type="PackedScene" uid="uid://bqj4b6okg2xa1" path="res://mesh/objects/pierpaolo.tscn" id="4_55qjs"]
+[ext_resource type="Script" path="res://scripts/CandleLight.cs" id="5_7itvt"]
+
+[sub_resource type="Environment" id="Environment_i0gtb"]
+background_mode = 2
+ambient_light_source = 2
+ambient_light_color = Color(1, 1, 0.937255, 1)
+ambient_light_energy = 0.3
+fog_enabled = true
+fog_light_color = Color(0.748226, 0.750869, 0.790106, 1)
+fog_light_energy = 0.2
+volumetric_fog_enabled = true
+volumetric_fog_emission_energy = 0.0
+adjustment_enabled = true
+adjustment_brightness = 0.8
+adjustment_contrast = 1.05
+adjustment_saturation = 0.8
+
+[sub_resource type="FogMaterial" id="FogMaterial_ss2o4"]
+density = 8.0
+albedo = Color(0, 0, 0, 1)
+edge_fade = 0.75
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_rdxv2"]
+transparency = 1
+blend_mode = 1
+albedo_color = Color(0.949, 0.49, 0.047, 0.454)
+
+[sub_resource type="SphereMesh" id="SphereMesh_vm84b"]
+material = SubResource("StandardMaterial3D_rdxv2")
+radius = 0.01
+height = 0.05
+
+[node name="NonCutScene" type="Node3D"]
+
+[node name="table2" parent="." instance=ExtResource("2_2dqff")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.269479, 1.2359)
+visible = false
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_i0gtb")
+
+[node name="FogVolume" type="FogVolume" parent="WorldEnvironment"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 2.66215, 0.810669, 0.476927, -4.16577)
+size = Vector3(11.9382, 5.60931, 1.92962)
+material = SubResource("FogMaterial_ss2o4")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.939693, 0.34202, 0, -0.34202, 0.939693, 0, 3.01456, 4.34136)
+current = true
+fov = 26.0
+far = 10.99
+
+[node name="candle2" parent="." instance=ExtResource("4_55qjs")]
+transform = Transform3D(-2.72318, 9.19348e-10, -5.33969, 2.02358e-09, 5.994, 0, 5.33969, -1.80269e-09, -2.72318, 9.43242e-05, 1.17114, 0.962716)
+
+[node name="light" type="OmniLight3D" parent="."]
+transform = Transform3D(-0.454318, 1.53378e-10, -0.89084, 3.37601e-10, 1, -4.44534e-16, 0.89084, -3.00749e-10, -0.454318, 0.000157302, 1.48882, 0.962593)
+light_color = Color(1, 0.760784, 0.4, 1)
+light_energy = 22.0
+light_bake_mode = 1
+shadow_opacity = 0.84
+distance_fade_enabled = true
+distance_fade_begin = 0.0
+distance_fade_length = 12.0
+omni_range = 1.0
+script = ExtResource("5_7itvt")
+percentual = 100.0
+timePerSecond = 60.0
+
+[node name="flame" type="MeshInstance3D" parent="."]
+transform = Transform3D(-0.408477, 1.37902e-10, -0.800954, 3.03537e-10, 0.8991, 0, 0.800954, -2.70403e-10, -0.408477, 0.000157302, 1.48882, 0.962593)
+mesh = SubResource("SphereMesh_vm84b")
+skeleton = NodePath("../light")
+
+[node name="flameLight" type="OmniLight3D" parent="flame"]
+light_color = Color(0.94902, 0.490196, 0.0470588, 1)
+light_energy = 16.0
+light_size = 0.2
+light_bake_mode = 1
+shadow_opacity = 0.84
+distance_fade_begin = 0.0
+distance_fade_length = 12.0
+omni_range = 0.1
+omni_attenuation = 0.0

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://d18thhjxs0uj8"
+path="res://.godot/imported/01. Light  -  Simple and Clean (from Kingdom Hearts).mp3-bc7fbd0fd3ca3c127bdde2ee2172bd22.mp3str"
+
+[deps]
+
+source_file="res://sounds/01. Light  -  Simple and Clean (from Kingdom Hearts).mp3"
+dest_files=["res://.godot/imported/01. Light  -  Simple and Clean (from Kingdom Hearts).mp3-bc7fbd0fd3ca3c127bdde2ee2172bd22.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

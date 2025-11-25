@@ -1,0 +1,29 @@
+[gd_scene load_steps=6 format=3 uid="uid://dlgu5qoue4f2h"]
+
+[ext_resource type="Script" path="res://scripts/Menues/Menues.cs" id="1_k8xqv"]
+[ext_resource type="PackedScene" uid="uid://dyyr3vx1ide5q" path="res://scenes/impostazioni.tscn" id="2_pgtas"]
+[ext_resource type="PackedScene" uid="uid://c5hd5c7t66tyi" path="res://scenes/menu.tscn" id="3_5wtjg"]
+[ext_resource type="PackedScene" uid="uid://bcc5krs6bsk6r" path="res://scenes/inventario.tscn" id="4_bo4b3"]
+[ext_resource type="PackedScene" uid="uid://5qwvx61tbfhx" path="res://scenes/Commands menu.tscn" id="5_o83io"]
+
+[node name="menues" type="Node2D" node_paths=PackedStringArray("pause", "settings", "commands", "inventory")]
+script = ExtResource("1_k8xqv")
+pause = NodePath("pause")
+settings = NodePath("Settings")
+commands = NodePath("CommandsMenu")
+inventory = NodePath("Inventario")
+
+[node name="pause" parent="." instance=ExtResource("3_5wtjg")]
+
+[node name="Settings" parent="." instance=ExtResource("2_pgtas")]
+process_mode = 3
+
+[node name="CommandsMenu" parent="." instance=ExtResource("5_o83io")]
+
+[node name="Inventario" parent="." instance=ExtResource("4_bo4b3")]
+
+[connection signal="OnCommands" from="pause" to="." method="AddCommands"]
+[connection signal="OnResume" from="pause" to="." method="Resume"]
+[connection signal="OnSettings" from="pause" to="." method="AddSettings"]
+[connection signal="EffectsValueChanged" from="Settings" to="." method="OnEffectsValueChanged"]
+[connection signal="GoToMenu" from="Settings" to="." method="GoBackFromSettings"]

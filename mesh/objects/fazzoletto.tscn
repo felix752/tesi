@@ -1,0 +1,47 @@
+[gd_scene load_steps=5 format=4 uid="uid://oyiytqe3pp4s"]
+
+[ext_resource type="Texture2D" uid="uid://cuw6f7rn0qgur" path="res://mesh/objects/fazzoletto_s-l400.png" id="1_4vf8q"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6rm24"]
+resource_name = "Material.002"
+cull_mode = 2
+albedo_texture = ExtResource("1_4vf8q")
+texture_filter = 2
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_02c3i"]
+_surfaces = [{
+"aabb": AABB(-1, -1, -1, 2, 2, 2),
+"format": 34896613377,
+"index_count": 36,
+"index_data": PackedByteArray("AAADAAEAAAACAAMAAgAHAAMAAgAGAAcABgAFAAcABgAEAAUABAABAAUABAAAAAEAAgAEAAYAAgAAAAQABwABAAMABwAFAAEA"),
+"name": "Material.002",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("AAAAAP//AAAAAP////8AAAAAAAAAAAAAAAD//wAAAAD//wAA//8AAP///////wAA//8AAAAAAAD/////AAAAAA==")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_xxhaq"]
+resource_name = "fazzoletto_Cube_001"
+_surfaces = [{
+"aabb": AABB(-1, -1, -1, 2, 2, 2),
+"attribute_data": PackedByteArray("/w/1KP9fAAD/X///UZCZKf+fAAD/n///jwrq4f9f/7//X/+/MoN55P+f/7//n/+//1//P/9f/z9HacIl/5//P/+f/z+O6h4l/1//f/9f/3//d0bh/5//f/+f/3+i+DLj"),
+"format": 34896613399,
+"index_count": 36,
+"index_data": PackedByteArray("AgAKAAUAAgAHAAoACAAVAAsACAASABUAEwAQABYAEwANABAADAAEAA8ADAABAAQABgAOABQABgAAAA4AFwADAAkAFwARAAMA"),
+"material": SubResource("StandardMaterial3D_6rm24"),
+"name": "Material.002",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("AAAAAP//AMAAAAAA////vwAAAAD//1TVAAD//////z8AAP//////vwAA/////1TVAAAAAAAA/78AAAAAAABU1QAAAAAAAP//AAD//wAA/z8AAP//AABU1QAA//8AAP////8AAP///7///wAA//9U1f//AAD///+//////////7////////9U1f////////4///8AAAAA/////wAAAABU1f//AAAAAP+//////wAA////////AABU1f////8AAP8/LQLofv////9U1VTVCf8Ufv////9U1VTVTwFXf1TVVNX/v/+/j/8gf1TVVNX/v/+//////6oqqipPAVd//////6oqqiqF/g19/7//v6oqqipvAMd//7//v6oqqioJ/xR+")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_02c3i")
+
+[node name="fazzoletto" type="Node3D"]
+
+[node name="Cube" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.125, 0, 0, 0, -0.001, 1.09278e-08, 0, -8.74228e-11, -0.125, 0, 0, 0)
+mesh = SubResource("ArrayMesh_xxhaq")

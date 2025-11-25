@@ -1,0 +1,102 @@
+Y:\Universita\Sviluppo di videogiochi\ProgettoSviluppoVideosviluppi\.godot\mono\temp\bin\Debug\Godot.deps.json
+Y:\Universita\Sviluppo di videogiochi\ProgettoSviluppoVideosviluppi\.godot\mono\temp\bin\Debug\Godot.runtimeconfig.json
+Y:\Universita\Sviluppo di videogiochi\ProgettoSviluppoVideosviluppi\.godot\mono\temp\bin\Debug\Godot.dll
+Y:\Universita\Sviluppo di videogiochi\ProgettoSviluppoVideosviluppi\.godot\mono\temp\bin\Debug\Godot.pdb
+Y:\Universita\Sviluppo di videogiochi\ProgettoSviluppoVideosviluppi\.godot\mono\temp\bin\Debug\GodotSharp.dll
+Y:\Universita\Sviluppo di videogiochi\ProgettoSviluppoVideosviluppi\.godot\mono\temp\bin\Debug\GodotSharpEditor.dll
+Y:\Universita\Sviluppo di videogiochi\ProgettoSviluppoVideosviluppi\.godot\mono\temp\obj\Debug\Godot.csproj.AssemblyReference.cache
+Y:\Universita\Sviluppo di videogiochi\ProgettoSviluppoVideosviluppi\.godot\mono\temp\obj\Debug\Godot.GeneratedMSBuildEditorConfig.editorconfig
+Y:\Universita\Sviluppo di videogiochi\ProgettoSviluppoVideosviluppi\.godot\mono\temp\obj\Debug\Godot.AssemblyInfoInputs.cache
+Y:\Universita\Sviluppo di videogiochi\ProgettoSviluppoVideosviluppi\.godot\mono\temp\obj\Debug\Godot.AssemblyInfo.cs
+Y:\Universita\Sviluppo di videogiochi\ProgettoSviluppoVideosviluppi\.godot\mono\temp\obj\Debug\Godot.csproj.CoreCompileInputs.cache
+Y:\Universita\Sviluppo di videogiochi\ProgettoSviluppoVideosviluppi\.godot\mono\temp\obj\Debug\Godot.csproj.CopyComplete
+Y:\Universita\Sviluppo di videogiochi\ProgettoSviluppoVideosviluppi\.godot\mono\temp\obj\Debug\Godot.dll
+Y:\Universita\Sviluppo di videogiochi\ProgettoSviluppoVideosviluppi\.godot\mono\temp\obj\Debug\refint\Godot.dll
+Y:\Universita\Sviluppo di videogiochi\ProgettoSviluppoVideosviluppi\.godot\mono\temp\obj\Debug\Godot.pdb
+Y:\Universita\Sviluppo di videogiochi\ProgettoSviluppoVideosviluppi\.godot\mono\temp\obj\Debug\Godot.genruntimeconfig.cache
+Y:\Universita\Sviluppo di videogiochi\ProgettoSviluppoVideosviluppi\.godot\mono\temp\obj\Debug\ref\Godot.dll
+C:\Users\felic\OneDrive\Desktop\Codici\GODOT\ProgettoSviluppoVideosviluppi\.godot\mono\temp\bin\Debug\Godot.deps.json
+C:\Users\felic\OneDrive\Desktop\Codici\GODOT\ProgettoSviluppoVideosviluppi\.godot\mono\temp\bin\Debug\Godot.runtimeconfig.json
+C:\Users\felic\OneDrive\Desktop\Codici\GODOT\ProgettoSviluppoVideosviluppi\.godot\mono\temp\bin\Debug\Godot.dll
+C:\Users\felic\OneDrive\Desktop\Codici\GODOT\ProgettoSviluppoVideosviluppi\.godot\mono\temp\bin\Debug\Godot.pdb
+C:\Users\felic\OneDrive\Desktop\Codici\GODOT\ProgettoSviluppoVideosviluppi\.godot\mono\temp\bin\Debug\GodotSharp.dll
+C:\Users\felic\OneDrive\Desktop\Codici\GODOT\ProgettoSviluppoVideosviluppi\.godot\mono\temp\bin\Debug\GodotSharpEditor.dll
+C:\Users\felic\OneDrive\Desktop\Codici\GODOT\ProgettoSviluppoVideosviluppi\.godot\mono\temp\obj\Debug\Godot.csproj.AssemblyReference.cache
+C:\Users\felic\OneDrive\Desktop\Codici\GODOT\ProgettoSviluppoVideosviluppi\.godot\mono\temp\obj\Debug\Godot.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\felic\OneDrive\Desktop\Codici\GODOT\ProgettoSviluppoVideosviluppi\.godot\mono\temp\obj\Debug\Godot.AssemblyInfoInputs.cache
+C:\Users\felic\OneDrive\Desktop\Codici\GODOT\ProgettoSviluppoVideosviluppi\.godot\mono\temp\obj\Debug\Godot.AssemblyInfo.cs
+C:\Users\felic\OneDrive\Desktop\Codici\GODOT\ProgettoSviluppoVideosviluppi\.godot\mono\temp\obj\Debug\Godot.csproj.CoreCompileInputs.cache
+C:\Users\felic\OneDrive\Desktop\Codici\GODOT\ProgettoSviluppoVideosviluppi\.godot\mono\temp\obj\Debug\Godot.csproj.CopyComplete
+C:\Users\felic\OneDrive\Desktop\Codici\GODOT\ProgettoSviluppoVideosviluppi\.godot\mono\temp\obj\Debug\Godot.dll
+C:\Users\felic\OneDrive\Desktop\Codici\GODOT\ProgettoSviluppoVideosviluppi\.godot\mono\temp\obj\Debug\refint\Godot.dll
+C:\Users\felic\OneDrive\Desktop\Codici\GODOT\ProgettoSviluppoVideosviluppi\.godot\mono\temp\obj\Debug\Godot.pdb
+C:\Users\felic\OneDrive\Desktop\Codici\GODOT\ProgettoSviluppoVideosviluppi\.godot\mono\temp\obj\Debug\Godot.genruntimeconfig.cache
+C:\Users\felic\OneDrive\Desktop\Codici\GODOT\ProgettoSviluppoVideosviluppi\.godot\mono\temp\obj\Debug\ref\Godot.dll
+C:\Users\felic\Desktop\SviluppoVideosviluppi\ProgettoSviluppoVideosviluppi\.godot\mono\temp\bin\Debug\Godot.deps.json
+C:\Users\felic\Desktop\SviluppoVideosviluppi\ProgettoSviluppoVideosviluppi\.godot\mono\temp\bin\Debug\Godot.runtimeconfig.json
+C:\Users\felic\Desktop\SviluppoVideosviluppi\ProgettoSviluppoVideosviluppi\.godot\mono\temp\bin\Debug\Godot.dll
+C:\Users\felic\Desktop\SviluppoVideosviluppi\ProgettoSviluppoVideosviluppi\.godot\mono\temp\bin\Debug\Godot.pdb
+C:\Users\felic\Desktop\SviluppoVideosviluppi\ProgettoSviluppoVideosviluppi\.godot\mono\temp\bin\Debug\GodotSharp.dll
+C:\Users\felic\Desktop\SviluppoVideosviluppi\ProgettoSviluppoVideosviluppi\.godot\mono\temp\bin\Debug\GodotSharpEditor.dll
+C:\Users\felic\Desktop\SviluppoVideosviluppi\ProgettoSviluppoVideosviluppi\.godot\mono\temp\obj\Debug\Godot.csproj.AssemblyReference.cache
+C:\Users\felic\Desktop\SviluppoVideosviluppi\ProgettoSviluppoVideosviluppi\.godot\mono\temp\obj\Debug\Godot.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\felic\Desktop\SviluppoVideosviluppi\ProgettoSviluppoVideosviluppi\.godot\mono\temp\obj\Debug\Godot.AssemblyInfoInputs.cache
+C:\Users\felic\Desktop\SviluppoVideosviluppi\ProgettoSviluppoVideosviluppi\.godot\mono\temp\obj\Debug\Godot.AssemblyInfo.cs
+C:\Users\felic\Desktop\SviluppoVideosviluppi\ProgettoSviluppoVideosviluppi\.godot\mono\temp\obj\Debug\Godot.csproj.CoreCompileInputs.cache
+C:\Users\felic\Desktop\SviluppoVideosviluppi\ProgettoSviluppoVideosviluppi\.godot\mono\temp\obj\Debug\Godot.csproj.CopyComplete
+C:\Users\felic\Desktop\SviluppoVideosviluppi\ProgettoSviluppoVideosviluppi\.godot\mono\temp\obj\Debug\Godot.dll
+C:\Users\felic\Desktop\SviluppoVideosviluppi\ProgettoSviluppoVideosviluppi\.godot\mono\temp\obj\Debug\refint\Godot.dll
+C:\Users\felic\Desktop\SviluppoVideosviluppi\ProgettoSviluppoVideosviluppi\.godot\mono\temp\obj\Debug\Godot.pdb
+C:\Users\felic\Desktop\SviluppoVideosviluppi\ProgettoSviluppoVideosviluppi\.godot\mono\temp\obj\Debug\Godot.genruntimeconfig.cache
+C:\Users\felic\Desktop\SviluppoVideosviluppi\ProgettoSviluppoVideosviluppi\.godot\mono\temp\obj\Debug\ref\Godot.dll
+C:\Users\miche\Desktop\Sviluppo di Sviluppi\ProgettoSviluppoVideosviluppi\.godot\mono\temp\bin\Debug\Godot.deps.json
+C:\Users\miche\Desktop\Sviluppo di Sviluppi\ProgettoSviluppoVideosviluppi\.godot\mono\temp\bin\Debug\Godot.runtimeconfig.json
+C:\Users\miche\Desktop\Sviluppo di Sviluppi\ProgettoSviluppoVideosviluppi\.godot\mono\temp\bin\Debug\Godot.dll
+C:\Users\miche\Desktop\Sviluppo di Sviluppi\ProgettoSviluppoVideosviluppi\.godot\mono\temp\bin\Debug\Godot.pdb
+C:\Users\miche\Desktop\Sviluppo di Sviluppi\ProgettoSviluppoVideosviluppi\.godot\mono\temp\bin\Debug\GodotSharp.dll
+C:\Users\miche\Desktop\Sviluppo di Sviluppi\ProgettoSviluppoVideosviluppi\.godot\mono\temp\bin\Debug\GodotSharpEditor.dll
+C:\Users\miche\Desktop\Sviluppo di Sviluppi\ProgettoSviluppoVideosviluppi\.godot\mono\temp\obj\Debug\Godot.csproj.AssemblyReference.cache
+C:\Users\miche\Desktop\Sviluppo di Sviluppi\ProgettoSviluppoVideosviluppi\.godot\mono\temp\obj\Debug\Godot.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\miche\Desktop\Sviluppo di Sviluppi\ProgettoSviluppoVideosviluppi\.godot\mono\temp\obj\Debug\Godot.AssemblyInfoInputs.cache
+C:\Users\miche\Desktop\Sviluppo di Sviluppi\ProgettoSviluppoVideosviluppi\.godot\mono\temp\obj\Debug\Godot.AssemblyInfo.cs
+C:\Users\miche\Desktop\Sviluppo di Sviluppi\ProgettoSviluppoVideosviluppi\.godot\mono\temp\obj\Debug\Godot.csproj.CoreCompileInputs.cache
+C:\Users\miche\Desktop\Sviluppo di Sviluppi\ProgettoSviluppoVideosviluppi\.godot\mono\temp\obj\Debug\Godot.csproj.CopyComplete
+C:\Users\miche\Desktop\Sviluppo di Sviluppi\ProgettoSviluppoVideosviluppi\.godot\mono\temp\obj\Debug\Godot.dll
+C:\Users\miche\Desktop\Sviluppo di Sviluppi\ProgettoSviluppoVideosviluppi\.godot\mono\temp\obj\Debug\refint\Godot.dll
+C:\Users\miche\Desktop\Sviluppo di Sviluppi\ProgettoSviluppoVideosviluppi\.godot\mono\temp\obj\Debug\Godot.pdb
+C:\Users\miche\Desktop\Sviluppo di Sviluppi\ProgettoSviluppoVideosviluppi\.godot\mono\temp\obj\Debug\Godot.genruntimeconfig.cache
+C:\Users\miche\Desktop\Sviluppo di Sviluppi\ProgettoSviluppoVideosviluppi\.godot\mono\temp\obj\Debug\ref\Godot.dll
+C:\Users\felic\Desktop\SviluppoVideosviluppi\Alter Ego\ProgettoSviluppoVideosviluppi\.godot\mono\temp\bin\Debug\Godot.deps.json
+C:\Users\felic\Desktop\SviluppoVideosviluppi\Alter Ego\ProgettoSviluppoVideosviluppi\.godot\mono\temp\bin\Debug\Godot.runtimeconfig.json
+C:\Users\felic\Desktop\SviluppoVideosviluppi\Alter Ego\ProgettoSviluppoVideosviluppi\.godot\mono\temp\bin\Debug\Godot.dll
+C:\Users\felic\Desktop\SviluppoVideosviluppi\Alter Ego\ProgettoSviluppoVideosviluppi\.godot\mono\temp\bin\Debug\Godot.pdb
+C:\Users\felic\Desktop\SviluppoVideosviluppi\Alter Ego\ProgettoSviluppoVideosviluppi\.godot\mono\temp\bin\Debug\GodotSharp.dll
+C:\Users\felic\Desktop\SviluppoVideosviluppi\Alter Ego\ProgettoSviluppoVideosviluppi\.godot\mono\temp\bin\Debug\GodotSharpEditor.dll
+C:\Users\felic\Desktop\SviluppoVideosviluppi\Alter Ego\ProgettoSviluppoVideosviluppi\.godot\mono\temp\obj\Debug\Godot.csproj.AssemblyReference.cache
+C:\Users\felic\Desktop\SviluppoVideosviluppi\Alter Ego\ProgettoSviluppoVideosviluppi\.godot\mono\temp\obj\Debug\Godot.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\felic\Desktop\SviluppoVideosviluppi\Alter Ego\ProgettoSviluppoVideosviluppi\.godot\mono\temp\obj\Debug\Godot.AssemblyInfoInputs.cache
+C:\Users\felic\Desktop\SviluppoVideosviluppi\Alter Ego\ProgettoSviluppoVideosviluppi\.godot\mono\temp\obj\Debug\Godot.AssemblyInfo.cs
+C:\Users\felic\Desktop\SviluppoVideosviluppi\Alter Ego\ProgettoSviluppoVideosviluppi\.godot\mono\temp\obj\Debug\Godot.csproj.CoreCompileInputs.cache
+C:\Users\felic\Desktop\SviluppoVideosviluppi\Alter Ego\ProgettoSviluppoVideosviluppi\.godot\mono\temp\obj\Debug\Godot.csproj.CopyComplete
+C:\Users\felic\Desktop\SviluppoVideosviluppi\Alter Ego\ProgettoSviluppoVideosviluppi\.godot\mono\temp\obj\Debug\Godot.dll
+C:\Users\felic\Desktop\SviluppoVideosviluppi\Alter Ego\ProgettoSviluppoVideosviluppi\.godot\mono\temp\obj\Debug\refint\Godot.dll
+C:\Users\felic\Desktop\SviluppoVideosviluppi\Alter Ego\ProgettoSviluppoVideosviluppi\.godot\mono\temp\obj\Debug\Godot.pdb
+C:\Users\felic\Desktop\SviluppoVideosviluppi\Alter Ego\ProgettoSviluppoVideosviluppi\.godot\mono\temp\obj\Debug\Godot.genruntimeconfig.cache
+C:\Users\felic\Desktop\SviluppoVideosviluppi\Alter Ego\ProgettoSviluppoVideosviluppi\.godot\mono\temp\obj\Debug\ref\Godot.dll
+C:\Users\felic\Desktop\ProgettoSviluppoVideosviluppi\.godot\mono\temp\bin\Debug\Godot.deps.json
+C:\Users\felic\Desktop\ProgettoSviluppoVideosviluppi\.godot\mono\temp\bin\Debug\Godot.runtimeconfig.json
+C:\Users\felic\Desktop\ProgettoSviluppoVideosviluppi\.godot\mono\temp\bin\Debug\Godot.dll
+C:\Users\felic\Desktop\ProgettoSviluppoVideosviluppi\.godot\mono\temp\bin\Debug\Godot.pdb
+C:\Users\felic\Desktop\ProgettoSviluppoVideosviluppi\.godot\mono\temp\bin\Debug\GodotSharp.dll
+C:\Users\felic\Desktop\ProgettoSviluppoVideosviluppi\.godot\mono\temp\bin\Debug\GodotSharpEditor.dll
+C:\Users\felic\Desktop\ProgettoSviluppoVideosviluppi\.godot\mono\temp\obj\Debug\Godot.csproj.AssemblyReference.cache
+C:\Users\felic\Desktop\ProgettoSviluppoVideosviluppi\.godot\mono\temp\obj\Debug\Godot.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\felic\Desktop\ProgettoSviluppoVideosviluppi\.godot\mono\temp\obj\Debug\Godot.AssemblyInfoInputs.cache
+C:\Users\felic\Desktop\ProgettoSviluppoVideosviluppi\.godot\mono\temp\obj\Debug\Godot.AssemblyInfo.cs
+C:\Users\felic\Desktop\ProgettoSviluppoVideosviluppi\.godot\mono\temp\obj\Debug\Godot.csproj.CoreCompileInputs.cache
+C:\Users\felic\Desktop\ProgettoSviluppoVideosviluppi\.godot\mono\temp\obj\Debug\Godot.csproj.CopyComplete
+C:\Users\felic\Desktop\ProgettoSviluppoVideosviluppi\.godot\mono\temp\obj\Debug\Godot.dll
+C:\Users\felic\Desktop\ProgettoSviluppoVideosviluppi\.godot\mono\temp\obj\Debug\refint\Godot.dll
+C:\Users\felic\Desktop\ProgettoSviluppoVideosviluppi\.godot\mono\temp\obj\Debug\Godot.pdb
+C:\Users\felic\Desktop\ProgettoSviluppoVideosviluppi\.godot\mono\temp\obj\Debug\Godot.genruntimeconfig.cache
+C:\Users\felic\Desktop\ProgettoSviluppoVideosviluppi\.godot\mono\temp\obj\Debug\ref\Godot.dll

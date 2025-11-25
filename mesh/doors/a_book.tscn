@@ -1,0 +1,48 @@
+[gd_scene load_steps=5 format=4 uid="uid://cf6vd587yydob"]
+
+[ext_resource type="Texture2D" uid="uid://8y28sh2wqc3c" path="res://mesh/doors/book_a_360_F_357804022_zxENYSeIkHbYdWB9sVprOhQRSefDxShn.png" id="1_2otd5"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_blq4a"]
+resource_name = "Materiale.062"
+cull_mode = 2
+albedo_texture = ExtResource("1_2otd5")
+texture_filter = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_qlvgh"]
+_surfaces = [{
+"aabb": AABB(-1, -1, -1, 2, 2, 2),
+"format": 34896613377,
+"index_count": 36,
+"index_data": PackedByteArray("AAADAAEAAAACAAMAAgAHAAMAAgAGAAcABgAFAAcABgAEAAUABAABAAUABAAAAAEAAgAEAAYAAgAAAAQABwABAAMABwAFAAEA"),
+"name": "Materiale.062",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("AAAAAP//AAAAAP////8AAAAAAAAAAAAAAAD//wAAAAD//wAA//8AAP///////wAA//8AAAAAAAD/////AAAAAA==")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_xhcrj"]
+resource_name = "book_a_Cubo_062"
+_surfaces = [{
+"aabb": AABB(-1, -1, -1, 2, 2, 2),
+"attribute_data": PackedByteArray("4J5zy8+v//9x6FKAsM///6jn/MZx6Mq74J5z68+v/9929N67sM//36jn/OYE9IGBwL5zy7fcOYDy5uJ/yMf8xrfcsbvy5vq6wL5z61Hd4n/x/5O8yMf85lHd+rr//8uA"),
+"format": 34896613399,
+"index_count": 36,
+"index_data": PackedByteArray("AQAJAAMAAQAHAAkACAAXAAsACAAUABcAEwARABYAEwAOABEADQAFABAADQACAAUABgAMABIABgAAAAwAFQAEAAoAFQAPAAQA"),
+"material": SubResource("StandardMaterial3D_blq4a"),
+"name": "Materiale.062",
+"primitive": 3,
+"uv_scale": Vector4(2.00776, 2, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("AAAAAP///78AAAAA//9U1QAAAAD//+7/AAD/////VNUAAP///////wAA/////+7/AAAAAAAA/78AAAAAAABU1QAAAAAAAAAAAAD//wAAVNUAAP//AAD//wAA//8AAAAA//8AAP///7///wAA///u////AAD////////////////////////u//////////////8AAAAA/7///wAAAAD/////AAAAAAAA/////wAA////////AAD///////8AAAAAAAD/f1TVVNX/f/9/VNVU1f9//7//f/9/AAD/f1TVVNX8//x/VNVU1f9//784/zl/AAD/f/9//3//v/9//3//v/9//3//v/9/AAD/f/+//38+/7+A/3//v/+//3/8//x/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_qlvgh")
+
+[node name="book_a" type="Node3D"]
+
+[node name="Cubo_062" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.15, 0, 0, 0, 0.175, 0, 0, 0, 0.05, 0, 0, 0)
+mesh = SubResource("ArrayMesh_xhcrj")
+skeleton = NodePath("")

@@ -1,0 +1,134 @@
+[gd_scene load_steps=11 format=3 uid="uid://cbbt7d22hgbf8"]
+
+[ext_resource type="Texture2D" uid="uid://dcctpq23h8adq" path="res://mesh/doors/door_frame_glagla11111.png" id="1_rmgyl"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_lyxnj"]
+resource_name = "Materiale"
+cull_mode = 2
+albedo_texture = ExtResource("1_rmgyl")
+texture_filter = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_j8arw"]
+_surfaces = [{
+"aabb": AABB(-1, 0, -1, 2, 1e-05, 2),
+"format": 34896613377,
+"index_count": 6,
+"index_data": PackedByteArray(0, 0, 3, 0, 1, 0, 0, 0, 2, 0, 3, 0),
+"name": "Materiale",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 4,
+"vertex_data": PackedByteArray(0, 0, 0, 0, 255, 255, 0, 0, 255, 255, 0, 0, 255, 255, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 255, 255, 0, 0, 0, 0, 0, 0)
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_0nfu1"]
+resource_name = "door_frame_Piano"
+_surfaces = [{
+"aabb": AABB(-1, 0, -1, 2, 1e-05, 2),
+"attribute_data": PackedByteArray(0, 0, 255, 255, 208, 62, 255, 255, 0, 0, 105, 231, 208, 62, 105, 231),
+"format": 34896613399,
+"index_count": 6,
+"index_data": PackedByteArray(0, 0, 3, 0, 1, 0, 0, 0, 2, 0, 3, 0),
+"material": SubResource("StandardMaterial3D_lyxnj"),
+"name": "Materiale",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 4,
+"vertex_data": PackedByteArray(0, 0, 0, 0, 255, 255, 255, 191, 255, 255, 0, 0, 255, 255, 255, 191, 0, 0, 0, 0, 0, 0, 255, 191, 255, 255, 0, 0, 0, 0, 255, 191, 255, 255, 255, 127, 255, 255, 255, 127, 255, 255, 255, 127, 255, 255, 255, 127)
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_j8arw")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_odvgq"]
+resource_name = "Materiale.001"
+cull_mode = 2
+albedo_texture = ExtResource("1_rmgyl")
+texture_filter = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_vy0cl"]
+_surfaces = [{
+"aabb": AABB(-1, 0, -1, 2, 1e-05, 2),
+"format": 34896613377,
+"index_count": 6,
+"index_data": PackedByteArray(0, 0, 3, 0, 1, 0, 0, 0, 2, 0, 3, 0),
+"name": "Materiale.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 4,
+"vertex_data": PackedByteArray(0, 0, 0, 0, 255, 255, 0, 0, 255, 255, 0, 0, 255, 255, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 255, 255, 0, 0, 0, 0, 0, 0)
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_7htgk"]
+resource_name = "door_frame_Piano_001"
+_surfaces = [{
+"aabb": AABB(-1, 0, -1, 2, 1e-05, 2),
+"attribute_data": PackedByteArray(0, 0, 255, 255, 104, 63, 255, 255, 0, 0, 66, 232, 104, 63, 66, 232),
+"format": 34896613399,
+"index_count": 6,
+"index_data": PackedByteArray(0, 0, 3, 0, 1, 0, 0, 0, 2, 0, 3, 0),
+"material": SubResource("StandardMaterial3D_odvgq"),
+"name": "Materiale.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 4,
+"vertex_data": PackedByteArray(0, 0, 0, 0, 255, 255, 255, 191, 255, 255, 0, 0, 255, 255, 255, 191, 0, 0, 0, 0, 0, 0, 255, 191, 255, 255, 0, 0, 0, 0, 255, 191, 255, 255, 255, 127, 255, 255, 255, 127, 255, 255, 255, 127, 255, 255, 255, 127)
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_vy0cl")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_faw60"]
+resource_name = "Materiale.002"
+cull_mode = 2
+albedo_texture = ExtResource("1_rmgyl")
+texture_filter = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_2bsgd"]
+_surfaces = [{
+"aabb": AABB(-1, 0, -1, 2, 1e-05, 2),
+"format": 34896613377,
+"index_count": 6,
+"index_data": PackedByteArray(0, 0, 3, 0, 1, 0, 0, 0, 2, 0, 3, 0),
+"name": "Materiale.002",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 4,
+"vertex_data": PackedByteArray(0, 0, 0, 0, 255, 255, 0, 0, 255, 255, 0, 0, 255, 255, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 255, 255, 0, 0, 0, 0, 0, 0)
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_l4rsg"]
+resource_name = "door_frame_Piano_002"
+_surfaces = [{
+"aabb": AABB(-1, 0, -1, 2, 1e-05, 2),
+"attribute_data": PackedByteArray(0, 0, 255, 255, 255, 63, 255, 255, 0, 0, 244, 233, 255, 63, 244, 233),
+"format": 34896613399,
+"index_count": 6,
+"index_data": PackedByteArray(0, 0, 3, 0, 1, 0, 0, 0, 2, 0, 3, 0),
+"material": SubResource("StandardMaterial3D_faw60"),
+"name": "Materiale.002",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 4,
+"vertex_data": PackedByteArray(0, 0, 0, 0, 255, 255, 255, 191, 255, 255, 0, 0, 255, 255, 255, 191, 0, 0, 0, 0, 0, 0, 255, 191, 255, 255, 0, 0, 0, 0, 255, 191, 255, 255, 255, 127, 255, 255, 255, 127, 255, 255, 255, 127, 255, 255, 255, 127)
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_2bsgd")
+
+[node name="door_frame" type="Node3D"]
+
+[node name="Piano" type="MeshInstance3D" parent="."]
+transform = Transform3D(0, 1, 0, -1.5, 0, 0, 0, 0, 0.1, -0.75, 1.5, 0)
+mesh = SubResource("ArrayMesh_0nfu1")
+skeleton = NodePath("")
+
+[node name="Piano_001" type="MeshInstance3D" parent="."]
+transform = Transform3D(0, 1, 0, -1.5, 0, 0, 0, 0, 0.1, 0.75771, 1.5, 0)
+mesh = SubResource("ArrayMesh_7htgk")
+skeleton = NodePath("")
+
+[node name="Piano_002" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.75, 0, 0, 0, 1, 0, 0, 0, 0.1, 0.00771017, 3, 0)
+mesh = SubResource("ArrayMesh_l4rsg")
+skeleton = NodePath("")

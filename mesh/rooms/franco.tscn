@@ -1,0 +1,92 @@
+[gd_scene load_steps=9 format=4 uid="uid://u6dbf441b5t5"]
+
+[ext_resource type="Texture2D" uid="uid://v3aghrpu5ag0" path="res://mesh/rooms/wall_hall_big_glagla11111.png" id="1_qagpj"]
+[ext_resource type="Texture2D" uid="uid://d0ewrdv4jyfhh" path="res://mesh/rooms/wall_hall_big_glagla4444444.png" id="2_yrvgb"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_lno1h"]
+resource_name = "Materiale"
+cull_mode = 2
+albedo_texture = ExtResource("1_qagpj")
+texture_filter = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_ggp6o"]
+_surfaces = [{
+"aabb": AABB(-1, 0, -1, 2, 1e-05, 2),
+"format": 34896613377,
+"index_count": 12,
+"index_data": PackedByteArray("BgABAAAABgAEAAEABQACAAMABQAHAAIA"),
+"name": "Materiale",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("AAAAAP//AAD//wAA//8AAAAAAAAAAAAA//8AAAAAAAD//wAAH6gAAP//AADfVwAAAAAAAB+oAAAAAAAA31cAAA==")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_a477x"]
+resource_name = "wall_hall_big_Piano"
+_surfaces = [{
+"aabb": AABB(-1, 0, -1, 2, 1e-05, 2),
+"attribute_data": PackedByteArray("dIBogJiA9//b/2+A/////1Os+f9D1Pz/L6xqgB/UbYA="),
+"format": 34896613399,
+"index_count": 12,
+"index_data": PackedByteArray("BgABAAAABgAEAAEABQACAAMABQAHAAIA"),
+"material": SubResource("StandardMaterial3D_lno1h"),
+"name": "Materiale",
+"primitive": 3,
+"uv_scale": Vector4(4.49537, 1.99363, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("AAAAAP//VdX//wAA//9V1QAAAAAAAFXV//8AAAAAVdX//wAAH6hV1f//AADfV1XVAAAAAB+oVdUAAAAA31dV1VPVqCpT1agqU9WoKlPVqCpT1agqU9WoKlPVqCpT1agq")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_ggp6o")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_e5ttx"]
+resource_name = "Materiale.001"
+cull_mode = 2
+albedo_texture = ExtResource("2_yrvgb")
+texture_filter = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_i8pw7"]
+_surfaces = [{
+"aabb": AABB(-1, 0, -1, 2, 1e-05, 2),
+"format": 34896613377,
+"index_count": 18,
+"index_data": PackedByteArray("BwADAAYAAAAFAAEAAAAEAAUABwACAAMAAAAHAAQAAgAHAAAA"),
+"name": "Materiale.001",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("AAAAAP//AAD//wAA//8AAAAAAAAAAAAA//8AAAAAAAC4HgAA0/cAAP//AADT9wAA//8AACsIAAC4HgAAKwgAAA==")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_nh166"]
+resource_name = "wall_hall_big_Piano_001"
+_surfaces = [{
+"aabb": AABB(-1, 0, -1, 2, 1e-05, 2),
+"attribute_data": PackedByteArray("lIAghJSA/////yCE/v///6WE/ZKlhP//7fv//+37/ZI="),
+"format": 34896613399,
+"index_count": 18,
+"index_data": PackedByteArray("BwADAAYAAAAFAAEAAAAEAAUABwACAAMAAAAHAAQAAgAHAAAA"),
+"material": SubResource("StandardMaterial3D_e5ttx"),
+"name": "Materiale.001",
+"primitive": 3,
+"uv_scale": Vector4(2.00069, 1.97823, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("AAAAAP//VNX//wAA//9U1QAAAAAAAFTV//8AAAAAVNW4HgAA0/dU1f//AADT91TV//8AACsIVNW4HgAAKwhU1VTVqipU1aoqVNWqKlTVqipU1aoqVNWqKlTVqipU1aoq")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_i8pw7")
+
+[node name="wall_hall_big" type="Node3D"]
+
+[node name="Piano" type="MeshInstance3D" parent="."]
+transform = Transform3D(0, 1, 0, -2.5, 0, 0, 0, 0, 7.5, 0, 2.5, 0)
+mesh = SubResource("ArrayMesh_a477x")
+skeleton = NodePath("")
+
+[node name="Piano_001" type="MeshInstance3D" parent="."]
+transform = Transform3D(0, 1, 0, -2.5, 0, 0, 0, 0, 2.35, 0, 2.5, 0)
+mesh = SubResource("ArrayMesh_nh166")
+skeleton = NodePath("")

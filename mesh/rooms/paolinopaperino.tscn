@@ -1,0 +1,48 @@
+[gd_scene load_steps=5 format=4 uid="uid://crd7jgw2jpcn8"]
+
+[ext_resource type="Texture2D" uid="uid://ipj5p5d63jmj" path="res://mesh/rooms/asylum_wall_room_hole_asylum_pad.png" id="1_g6udf"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_2h2tm"]
+resource_name = "Materiale.005"
+cull_mode = 2
+albedo_texture = ExtResource("1_g6udf")
+texture_filter = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_wrr3o"]
+_surfaces = [{
+"aabb": AABB(-1, 0, -1, 2, 1e-05, 2),
+"format": 34896613377,
+"index_count": 42,
+"index_data": PackedByteArray("DwADAA0AAAAHAAEAAAAEAAcADwACAAMACQAOAAwADgACAA8AAgAEAAAABQAIAAYAAgAFAAQACwAOAAkABQAKAAgACwACAA4AAgAKAAUAAgALAAoA"),
+"name": "Materiale.005",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 16,
+"vertex_data": PackedByteArray("AAAAAP//AAD//wAA//8AAAAAAAAAAAAA//8AAAAAAABlZgAAcdUAAGVmAADAwQAA//8AAMDBAAD//wAAcdUAAP//AACmlAAA//8AAPSAAABlZgAAppQAAGVmAAD0gAAA//8AAMNUAAD//wAAEkEAAGVmAADDVAAAZWYAABJBAAA=")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_lxfgt"]
+resource_name = "asylum_wall_room_hole_Piano_005"
+_surfaces = [{
+"aabb": AABB(-1, 0, -1, 2, 1e-05, 2),
+"attribute_data": PackedByteArray("hn/NgYZ//v///82B/////+GUR7TDnke0w57//+GU/v9ltf//R7///2W1R7RHv0e0ddX//1ff//911Ue0V99HtA=="),
+"format": 34896613399,
+"index_count": 42,
+"index_data": PackedByteArray("DwADAA0AAAAHAAEAAAAEAAcADwACAAMACQAOAAwADgACAA8AAgAEAAAABQAIAAYAAgAFAAQACwAOAAkABQAKAAgACwACAA4AAgAKAAUAAgALAAoA"),
+"material": SubResource("StandardMaterial3D_2h2tm"),
+"name": "Materiale.005",
+"primitive": 3,
+"uv_scale": Vector4(7.72507, 1.97222, 0, 0),
+"vertex_count": 16,
+"vertex_data": PackedByteArray("AAAAAP//VNX//wAA//9U1QAAAAAAAFTV//8AAAAAVNVlZgAAcdVU1WVmAADAwVTV//8AAMDBVNX//wAAcdVU1f//AACmlFTV//8AAPSAVNVlZgAAppRU1WVmAAD0gFTV//8AAMNUVNX//wAAEkFU1WVmAADDVFTVZWYAABJBVNVU1aoqVNWqKlTVqipU1aoqVNWqKlTVqipU1aoqVNWqKlTVqipU1aoqVNWqKlTVqipU1aoqVNWqKlTVqipU1aoq")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_wrr3o")
+
+[node name="asylum_wall_room_hole" type="Node3D"]
+
+[node name="Piano_005" type="MeshInstance3D" parent="."]
+transform = Transform3D(0, 1, 0, -2.5, 0, 0, 0, 0, 9.75, 0, 2.5, 0)
+mesh = SubResource("ArrayMesh_lxfgt")
+skeleton = NodePath("")

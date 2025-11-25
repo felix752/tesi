@@ -1,0 +1,160 @@
+[gd_scene load_steps=11 format=3 uid="uid://bxvbxj5owgk3v"]
+
+[ext_resource type="FontFile" uid="uid://dlhjp1l3y6mh1" path="res://font/VT323-Regular.ttf" id="1_2voy6"]
+[ext_resource type="Script" path="res://scripts/GameObjects/ObtainItemAnimation.cs" id="1_8w5gb"]
+[ext_resource type="Shader" path="res://shader/blur.gdshader" id="2_xccx8"]
+[ext_resource type="PackedScene" uid="uid://b2c0sfdv5aqo4" path="res://scenes/gameObjectCamera.tscn" id="3_5gd6f"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_4dx7p"]
+font = ExtResource("1_2voy6")
+font_size = 44
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_iacnr"]
+shader = ExtResource("2_xccx8")
+shader_parameter/blur = 0.667
+shader_parameter/brightness = 0.75
+
+[sub_resource type="Animation" id="Animation_7n2ry"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("itemAnimation/SubViewportContainer:scale")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(0.1, 0.1)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("itemAnimation/SubViewportContainer:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("itemAnimation/ColorRect:color")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_pt362"]
+resource_name = "new_animation"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("itemAnimation/ColorRect:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("itemAnimation/SubViewportContainer:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("itemAnimation/SubViewportContainer:scale")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(0.1, 0.1), Vector2(2, 2)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_55mo6"]
+_data = {
+"RESET": SubResource("Animation_7n2ry"),
+"new_animation": SubResource("Animation_pt362")
+}
+
+[sub_resource type="World3D" id="World3D_auxbf"]
+
+[node name="itemAnimation" type="Node2D" node_paths=PackedStringArray("obtainItemAnimationPlayer", "gameObjectCamera", "label")]
+process_mode = 3
+scale = Vector2(0.5, 0.5)
+script = ExtResource("1_8w5gb")
+obtainItemAnimationPlayer = NodePath("AnimationPlayer")
+gameObjectCamera = NodePath("SubViewportContainer/SubViewport/gameObjectCamera")
+label = NodePath("Label")
+
+[node name="Label" type="Label" parent="."]
+z_index = 1
+offset_top = 600.0
+offset_right = 1080.0
+offset_bottom = 646.0
+pivot_offset = Vector2(540, 23)
+text = "SCRITTA"
+label_settings = SubResource("LabelSettings_4dx7p")
+horizontal_alignment = 1
+vertical_alignment = 1
+uppercase = true
+
+[node name="ColorRect" type="ColorRect" parent="."]
+material = SubResource("ShaderMaterial_iacnr")
+offset_right = 1080.0
+offset_bottom = 720.0
+color = Color(1, 1, 1, 0)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+root_node = NodePath("../..")
+libraries = {
+"": SubResource("AnimationLibrary_55mo6")
+}
+
+[node name="SubViewportContainer" type="SubViewportContainer" parent="."]
+visible = false
+z_index = 5
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 429.0
+offset_top = 249.0
+offset_right = 651.0
+offset_bottom = 471.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.1, 0.1)
+pivot_offset = Vector2(111, 111)
+
+[node name="SubViewport" type="SubViewport" parent="SubViewportContainer"]
+world_3d = SubResource("World3D_auxbf")
+transparent_bg = true
+handle_input_locally = false
+gui_disable_input = true
+size = Vector2i(222, 222)
+render_target_update_mode = 0
+
+[node name="gameObjectCamera" parent="SubViewportContainer/SubViewport" instance=ExtResource("3_5gd6f")]

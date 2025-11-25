@@ -1,0 +1,49 @@
+[gd_scene load_steps=5 format=3 uid="uid://dob0g3k65nv34"]
+
+[ext_resource type="Texture2D" uid="uid://borerp8sntoln" path="res://mesh/rooms/lab_wall_lab_wall_tx.png" id="1_bvops"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_q78rp"]
+resource_name = "Materiale"
+cull_mode = 2
+albedo_texture = ExtResource("1_bvops")
+roughness = 0.5
+texture_filter = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_q3ibu"]
+_surfaces = [{
+"aabb": AABB(-1, 0, -1, 2, 1e-05, 2),
+"format": 34896613377,
+"index_count": 6,
+"index_data": PackedByteArray(0, 0, 3, 0, 1, 0, 0, 0, 2, 0, 3, 0),
+"name": "Materiale",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 4,
+"vertex_data": PackedByteArray(0, 0, 0, 0, 255, 255, 0, 0, 255, 255, 0, 0, 255, 255, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 255, 255, 0, 0, 0, 0, 0, 0)
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_q52es"]
+resource_name = "lab_wall_Piano"
+_surfaces = [{
+"aabb": AABB(-1, 0, -1, 2, 1e-05, 2),
+"attribute_data": PackedByteArray(204, 105, 255, 127, 204, 105, 255, 255, 255, 255, 255, 127, 255, 255, 255, 255),
+"format": 34896613399,
+"index_count": 6,
+"index_data": PackedByteArray(0, 0, 3, 0, 1, 0, 0, 0, 2, 0, 3, 0),
+"material": SubResource("StandardMaterial3D_q78rp"),
+"name": "Materiale",
+"primitive": 3,
+"uv_scale": Vector4(2.41964, 2, 0, 0),
+"vertex_count": 4,
+"vertex_data": PackedByteArray(0, 0, 0, 0, 255, 255, 84, 213, 255, 255, 0, 0, 255, 255, 84, 213, 0, 0, 0, 0, 0, 0, 84, 213, 255, 255, 0, 0, 0, 0, 84, 213, 84, 213, 170, 42, 84, 213, 170, 42, 84, 213, 170, 42, 84, 213, 170, 42)
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_q3ibu")
+
+[node name="lab_wall" type="Node3D"]
+
+[node name="Piano" type="MeshInstance3D" parent="."]
+transform = Transform3D(0, 1, 0, -2.5, 0, 0, 0, 0, 4, 0, 2.5, 0)
+mesh = SubResource("ArrayMesh_q52es")
+skeleton = NodePath("")

@@ -1,0 +1,49 @@
+[gd_scene load_steps=5 format=4 uid="uid://dgym5ehfxa1n2"]
+
+[ext_resource type="Texture2D" uid="uid://cmuicxop4ay2s" path="res://mesh/doors/book_s_360_F_357804022_zxENYSeIkHbYdWB9sVprOhQRSefDxShn.png" id="1_qs2gw"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_tcaxq"]
+resource_name = "Materiale.068"
+cull_mode = 2
+albedo_texture = ExtResource("1_qs2gw")
+roughness = 0.5
+texture_filter = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_hnp7n"]
+_surfaces = [{
+"aabb": AABB(-1, -1, -1, 2, 2, 2),
+"format": 34896613377,
+"index_count": 36,
+"index_data": PackedByteArray("AAADAAEAAAACAAMAAgAHAAMAAgAGAAcABgAFAAcABgAEAAUABAABAAUABAAAAAEAAgAEAAYAAgAAAAQABwABAAMABwAFAAEA"),
+"name": "Materiale.068",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("AAAAAP//AAAAAP////8AAAAAAAAAAAAAAAD//wAAAAD//wAA//8AAP///////wAA//8AAAAAAAD/////AAAAAA==")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_vnytp"]
+resource_name = "book_s_Cubo_068"
+_surfaces = [{
+"aabb": AABB(-1, -1, -1, 2, 2, 2),
+"attribute_data": PackedByteArray("CiVklf9f//+yt6UA/5///7K3lXcf0PmNCiVk1f9f/7+Apnx4/5//v8GlRgAf0PnNCWVklSilZQGyt6oBH5D5jSilVXiyt9p3CWVk1V2kqgGMuPZ3H5D5zV2k2nceuKQA"),
+"format": 34896613399,
+"index_count": 36,
+"index_data": PackedByteArray("AQAJAAMAAQAHAAkACAAXAAoACAAUABcAEwARABYAEwAOABEADQAEABAADQACAAQABgAMABIABgAAAAwAFQAFAAsAFQAPAAUA"),
+"material": SubResource("StandardMaterial3D_tcaxq"),
+"name": "Materiale.068",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("AAAAAP///78AAAAA//9U1QAAAAD//73/AAD/////VNUAAP////+9/wAA////////AAAAAAAA/78AAAAAAABU1QAAAAAAAAAAAAD//wAAVNUAAP//AAAAAAAA//8AAP////8AAP///7///wAA//+9////AAD///////////////////////+9//////////////8AAAAA/7///wAAAAD/////AAAAAAAA/////wAA////////AAD///////8AAAAAAAD/f1TVVNX/////VNVU1f//////f/+/AAD/f1TVVNX0//R/VNVU1cz/MYD/f/+/AAD/f///////v/9//3//v///////v/9/AAD/f/+//3+3/7d//3//v/+//3/0//R/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_hnp7n")
+
+[node name="book_s" type="Node3D"]
+
+[node name="Cubo_068" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.15, 0, 0, 0, 0.175, 0, 0, 0, 0.05, 0, 0, 0)
+mesh = SubResource("ArrayMesh_vnytp")
+skeleton = NodePath("")

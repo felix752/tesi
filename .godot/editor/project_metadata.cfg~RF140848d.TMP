@@ -1,0 +1,47 @@
+[editor_metadata]
+
+executable_path="C:/Users/felic/Godot_v4.3-stable_mono_win64/Godot_v4.3-stable_mono_win64.exe"
+use_advanced_connections=false
+show_all_nodes_for_node_selection=true
+
+[debug_options]
+
+run_live_debug=true
+run_reload_scripts=true
+run_debug_instances=1
+
+[recent_files]
+
+scenes=["res://impostazioni.tscn", "res://player.tscn", "res://interectableNPCs.tscn", "res://door.tscn", "res://main.tscn", "res://Animations/personaggio_camminante.glb", "res://stairs.glb", "res://hall_floor.glb", "res://wall_hall_hole.glb", "res://menu.tscn"]
+scripts=["res://menuScript.cs", "res://Camera3D.cs", "res://head.cs", "res://player.cs"]
+
+[inspector_options]
+
+material_preview_on_sphere=true
+
+[dialog_bounds]
+
+project_settings=Rect2(0, 29, 1920, 1001)
+editor_settings=Rect2(510, 190, 900, 700)
+create_new_node=Rect2(547, 171, 900, 700)
+search_help=Rect2(480, 270, 960, 540)
+
+[color_picker]
+
+recent_presets=PackedColorArray(1, 0.92549, 0.156863, 1, 0.756457, 0.696246, 0, 1, 1, 0.984304, 0.80569, 1, 1, 1, 89.73, 1, 1, 0, 1, 1, 1, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0, 1, 1, 1, 0, 1)
+picker_shape=3
+color_mode=0
+
+[script_setup]
+
+last_selected_language="C#"
+
+[linked_properties]
+
+Node3D:scale=true
+CharacterBody3D:scale=false
+
+[shader_setup]
+
+last_selected_mode=1
+last_selected_language="Shader"

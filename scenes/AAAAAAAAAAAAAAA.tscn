@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://c0r1i8tg76jbo"]
+
+[ext_resource type="PackedScene" uid="uid://ssa7hn70h0b2" path="res://mesh/objects/key1.glb" id="1_4mbfu"]
+
+[node name="key1" instance=ExtResource("1_4mbfu")]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 0, 0, 0)

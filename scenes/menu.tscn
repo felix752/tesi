@@ -1,0 +1,126 @@
+[gd_scene load_steps=8 format=3 uid="uid://c5hd5c7t66tyi"]
+
+[ext_resource type="Script" path="res://scripts/Menues/MenuScript.cs" id="1_rsh8y"]
+[ext_resource type="Shader" path="res://shader/blur.gdshader" id="2_e4y2d"]
+[ext_resource type="FontFile" uid="uid://dlhjp1l3y6mh1" path="res://font/VT323-Regular.ttf" id="3_48lgp"]
+[ext_resource type="Texture2D" uid="uid://bimxnkeqf6pc0" path="res://2D/menues/BackMenu.png" id="6_ueie8"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_cdbn1"]
+shader = ExtResource("2_e4y2d")
+shader_parameter/blur = 0.667
+shader_parameter/brightness = 0.75
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_74ap6"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_13q5k"]
+
+[node name="menu" type="Node2D" node_paths=PackedStringArray("btnResume", "btnSettings", "btnCommands", "btnEsc")]
+script = ExtResource("1_rsh8y")
+btnResume = NodePath("BtnRiprendi")
+btnSettings = NodePath("BtnImpostazioni")
+btnCommands = NodePath("comandi")
+btnEsc = NodePath("BtnEsci")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+material = SubResource("ShaderMaterial_cdbn1")
+offset_left = -211.0
+offset_top = -129.0
+offset_right = 1784.0
+offset_bottom = 1041.0
+
+[node name="BtnRiprendi" type="Button" parent="."]
+z_index = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 440.0
+offset_top = 158.86
+offset_right = 640.0
+offset_bottom = 199.86
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(100, 20.5)
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("3_48lgp")
+theme_override_font_sizes/font_size = 32
+theme_override_styles/focus = SubResource("StyleBoxEmpty_74ap6")
+text = "RIPRENDI"
+flat = true
+
+[node name="BtnImpostazioni" type="Button" parent="."]
+z_index = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 440.0
+offset_top = 279.26
+offset_right = 640.0
+offset_bottom = 320.26
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(100, 20.5)
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("3_48lgp")
+theme_override_font_sizes/font_size = 32
+theme_override_styles/focus = SubResource("StyleBoxEmpty_74ap6")
+text = "IMPOSTAZIONI"
+flat = true
+
+[node name="comandi" type="Button" parent="."]
+z_index = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 440.0
+offset_top = 399.66
+offset_right = 640.0
+offset_bottom = 440.66
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(100, 20.5)
+theme_override_fonts/font = ExtResource("3_48lgp")
+theme_override_font_sizes/font_size = 32
+theme_override_styles/focus = SubResource("StyleBoxEmpty_13q5k")
+text = "COMANDI"
+flat = true
+
+[node name="BtnEsci" type="Button" parent="."]
+z_index = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 440.0
+offset_top = 520.06
+offset_right = 640.0
+offset_bottom = 561.06
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(100, 20.5)
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("3_48lgp")
+theme_override_font_sizes/font_size = 32
+theme_override_styles/focus = SubResource("StyleBoxEmpty_74ap6")
+text = "ESCI DAL GIOCO"
+flat = true
+
+[node name="background" type="Sprite2D" parent="."]
+modulate = Color(1, 1, 1, 0.878431)
+texture = ExtResource("6_ueie8")
+centered = false
+
+[connection signal="mouse_entered" from="BtnRiprendi" to="." method="OnResumeButtonHovered"]
+[connection signal="pressed" from="BtnRiprendi" to="." method="OnPausePressed"]
+[connection signal="mouse_entered" from="BtnImpostazioni" to="." method="OnSettingsButtonHovered"]
+[connection signal="pressed" from="BtnImpostazioni" to="." method="OnSettingsPressed"]
+[connection signal="mouse_entered" from="comandi" to="." method="OnCommandButtonHovered"]
+[connection signal="pressed" from="comandi" to="." method="OnCommandPressed"]
+[connection signal="mouse_entered" from="BtnEsci" to="." method="OnEscButtonHovered"]
+[connection signal="pressed" from="BtnEsci" to="." method="OnExitPressed"]

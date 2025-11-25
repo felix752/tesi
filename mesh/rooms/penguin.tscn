@@ -1,0 +1,48 @@
+[gd_scene load_steps=5 format=3 uid="uid://bd14ka65ivdr5"]
+
+[ext_resource type="Texture2D" uid="uid://c6opn08hisor8" path="res://mesh/rooms/hall_wall_3_glagla11111.png" id="1_y1l03"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_l27g8"]
+resource_name = "Materiale"
+cull_mode = 2
+albedo_texture = ExtResource("1_y1l03")
+texture_filter = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_tqr56"]
+_surfaces = [{
+"aabb": AABB(-1, 0, -1, 2, 1e-05, 2),
+"format": 34896613377,
+"index_count": 6,
+"index_data": PackedByteArray(0, 0, 3, 0, 1, 0, 0, 0, 2, 0, 3, 0),
+"name": "Materiale",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 4,
+"vertex_data": PackedByteArray(0, 0, 0, 0, 255, 255, 0, 0, 255, 255, 0, 0, 255, 255, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 255, 255, 0, 0, 0, 0, 0, 0)
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_3vxkg"]
+resource_name = "hall_wall_3_Piano"
+_surfaces = [{
+"aabb": AABB(-1, 0, -1, 2, 1e-05, 2),
+"attribute_data": PackedByteArray(127, 128, 76, 128, 16, 128, 255, 255, 255, 255, 112, 127, 223, 255, 206, 255),
+"format": 34896613399,
+"index_count": 6,
+"index_data": PackedByteArray(0, 0, 3, 0, 1, 0, 0, 0, 2, 0, 3, 0),
+"material": SubResource("StandardMaterial3D_l27g8"),
+"name": "Materiale",
+"primitive": 3,
+"uv_scale": Vector4(1.4995, 2.0035, 0, 0),
+"vertex_count": 4,
+"vertex_data": PackedByteArray(0, 0, 0, 0, 255, 255, 59, 213, 255, 255, 0, 0, 255, 255, 75, 213, 0, 0, 0, 0, 0, 0, 44, 213, 255, 255, 0, 0, 0, 0, 59, 213, 99, 213, 200, 42, 89, 213, 181, 42, 108, 213, 219, 42, 99, 213, 200, 42)
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_tqr56")
+
+[node name="hall_wall_3" type="Node3D"]
+
+[node name="Piano" type="MeshInstance3D" parent="."]
+transform = Transform3D(0, 1, 0, -2.5, 0, 0, 0, 0, 2.25, 0, 2.5, 0)
+mesh = SubResource("ArrayMesh_3vxkg")
+skeleton = NodePath("")

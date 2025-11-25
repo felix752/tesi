@@ -1,0 +1,48 @@
+[gd_scene load_steps=5 format=3 uid="uid://byxpx88n0rrsu"]
+
+[ext_resource type="Texture2D" uid="uid://cnwvjjysleilt" path="res://mesh/rooms/tiny_floor_floor_texture.png" id="1_6m0h3"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_gicl3"]
+resource_name = "Materiale"
+cull_mode = 2
+albedo_texture = ExtResource("1_6m0h3")
+texture_filter = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_cdxgk"]
+_surfaces = [{
+"aabb": AABB(-1, 0, -1, 2, 1e-05, 2),
+"format": 34896613377,
+"index_count": 6,
+"index_data": PackedByteArray(0, 0, 3, 0, 1, 0, 0, 0, 2, 0, 3, 0),
+"name": "Materiale",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 4,
+"vertex_data": PackedByteArray(0, 0, 0, 0, 255, 255, 0, 0, 255, 255, 0, 0, 255, 255, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 255, 255, 0, 0, 0, 0, 0, 0)
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_6fdyi"]
+resource_name = "tiny_floor_Piano"
+_surfaces = [{
+"aabb": AABB(-1, 0, -1, 2, 1e-05, 2),
+"attribute_data": PackedByteArray(229, 74, 99, 73, 229, 74, 255, 255, 255, 255, 99, 73, 254, 255, 255, 255),
+"format": 34896613399,
+"index_count": 6,
+"index_data": PackedByteArray(0, 0, 3, 0, 1, 0, 0, 0, 2, 0, 3, 0),
+"material": SubResource("StandardMaterial3D_gicl3"),
+"name": "Materiale",
+"primitive": 3,
+"uv_scale": Vector4(3.41807, 3.48824, 0, 0),
+"vertex_count": 4,
+"vertex_data": PackedByteArray(0, 0, 0, 0, 255, 255, 84, 213, 255, 255, 0, 0, 255, 255, 84, 213, 0, 0, 0, 0, 0, 0, 84, 213, 255, 255, 0, 0, 0, 0, 84, 213, 84, 213, 170, 42, 84, 213, 170, 42, 84, 213, 170, 42, 84, 213, 170, 42)
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_cdxgk")
+
+[node name="tiny_floor" type="Node3D"]
+
+[node name="Piano" type="MeshInstance3D" parent="."]
+transform = Transform3D(3.75, 0, 0, 0, 1, 0, 0, 0, 2.35, 0, 0, 0)
+mesh = SubResource("ArrayMesh_6fdyi")
+skeleton = NodePath("")

@@ -1,0 +1,49 @@
+[gd_scene load_steps=5 format=4 uid="uid://xvyxpgsjv5x3"]
+
+[ext_resource type="Texture2D" uid="uid://b12mnochjfpee" path="res://mesh/furnitures/carpet_glaglaglat.png" id="1_vhniw"]
+
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_uj4dl"]
+resource_name = "Materiale"
+cull_mode = 2
+albedo_texture = ExtResource("1_vhniw")
+texture_filter = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_jukwa"]
+_surfaces = [{
+"aabb": AABB(-1, -1, -1, 2, 2, 2),
+"format": 34896613377,
+"index_count": 36,
+"index_data": PackedByteArray("AAADAAEAAAACAAMAAgAHAAMAAgAGAAcABgAFAAcABgAEAAUABAABAAUABAAAAAEAAgAEAAYAAgAAAAQABwABAAMABwAFAAEA"),
+"name": "Materiale",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("AAAAAP//AAAAAP////8AAAAAAAAAAAAAAAD//wAAAAD//wAA//8AAP///////wAA//8AAAAAAAD/////AAAAAA==")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_u3t7g"]
+resource_name = "carpet_Cubo"
+_surfaces = [{
+"aabb": AABB(-1, -1, -1, 2, 2, 2),
+"attribute_data": PackedByteArray("C5D/nyOw/38jsP//YYAigDvQ/3870P//C5D/vyOw/98jsP/fO9D/3zvQ/9/g/+2AI7D/nyOw/58jsP+f/n/b/jvQ/5870P+fI7D/vyOw/78jsP+/O9D/vzvQ/7///6b/"),
+"format": 34896613399,
+"index_count": 36,
+"index_data": PackedByteArray("AgAJAAUAAgAHAAkACAAVAAoACAATABUAFAARABYAFAAOABEADQAEABAADQABAAQABgAMABIABgAAAAwAFwADAAsAFwAPAAMA"),
+"material": SubResource("StandardMaterial3D_uj4dl"),
+"name": "Materiale",
+"primitive": 3,
+"uv_scale": Vector4(1.99411, 2, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("AAAAAP///78AAAAA////vwAAAAD//1TVAAD/////etUAAP//////vwAA/////1TVAAAAAAAA/78AAAAAAABU1QAAAAAAAP//AAD//wAAVNUAAP//AAD//wAA//8AAHrV//8AAP///7///wAA////v///AAD//1TV////////etX/////////v////////1TV//8AAAAA/7///wAAAAD/////AAAAAFTV/////wAA////////AABU1f////8AAHrVAAD/f/////9U1VTVPdV9Kv////9U1VTVAAD/f1TVVNX/v/+/VNVU1f+//7891X0qAAD/f/////+qKqoqPdV9Kv////+qKqoqAAD/f/+//7+qKqoq/7//v6oqqio91X0q")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_jukwa")
+
+[node name="carpet" type="Node3D"]
+
+[node name="Cubo" type="MeshInstance3D" parent="."]
+transform = Transform3D(2, 0, 0, 0, 0.025, 0, 0, 0, 3, 0, 0, 0)
+mesh = SubResource("ArrayMesh_u3t7g")
+skeleton = NodePath("")

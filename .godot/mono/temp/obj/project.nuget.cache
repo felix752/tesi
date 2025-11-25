@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "akaLvb+x6CrrjLmEAkihynM33wvOXii0k6cxrWUH4i9v7DrFEF8bt62hvp6iCMAc5aeJmpNGAnxXYIMXUJ196A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\felic\\Desktop\\SviluppoVideosviluppi\\Alter Ego\\ProgettoSviluppoVideosviluppi\\Godot.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\felic\\.nuget\\packages\\godot.sourcegenerators\\4.3.0\\godot.sourcegenerators.4.3.0.nupkg.sha512",
+    "C:\\Users\\felic\\.nuget\\packages\\godotsharp\\4.3.0\\godotsharp.4.3.0.nupkg.sha512",
+    "C:\\Users\\felic\\.nuget\\packages\\godotsharpeditor\\4.3.0\\godotsharpeditor.4.3.0.nupkg.sha512",
+    "C:\\Users\\felic\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.19\\microsoft.netcore.app.ref.6.0.19.nupkg.sha512",
+    "C:\\Users\\felic\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.19\\microsoft.windowsdesktop.app.ref.6.0.19.nupkg.sha512",
+    "C:\\Users\\felic\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.19\\microsoft.aspnetcore.app.ref.6.0.19.nupkg.sha512"
+  ],
+  "logs": []
+}

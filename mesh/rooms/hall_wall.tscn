@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://dt47djincq6o7"]
+
+[ext_resource type="PackedScene" uid="uid://bm3g44tvmjcue" path="res://mesh/rooms/hall_wall.glb" id="1_1l2ha"]
+
+[node name="hall_wall" instance=ExtResource("1_1l2ha")]
+
+[node name="Piano" parent="." index="0"]
+transform = Transform3D(0, 1, 0, -2.5, 0, 0, 0, 0, 7.5, 0.0232424, 2.25538, 0.269448)

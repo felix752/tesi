@@ -1,0 +1,49 @@
+[gd_scene load_steps=5 format=4 uid="uid://bm06doqscfpw3"]
+
+[ext_resource type="Texture2D" uid="uid://c82w8wggpc5or" path="res://mesh/objects/7_denari_7_denari_texture.png" id="1_sgm8s"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_7tul2"]
+resource_name = "Material"
+cull_mode = 2
+albedo_texture = ExtResource("1_sgm8s")
+roughness = 0.5
+texture_filter = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_7d6xl"]
+_surfaces = [{
+"aabb": AABB(-1, -1, -1, 2, 2, 2),
+"format": 34896613377,
+"index_count": 36,
+"index_data": PackedByteArray("AAAGAAQAAAACAAYAAwAGAAIAAwAHAAYABwAEAAYABwAFAAQABQADAAEABQAHAAMAAQACAAAAAQADAAIABQAAAAQABQABAAAA"),
+"name": "Material",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("/////wAAAAD//wAAAAAAAP///////wAA//8AAP//AAAAAP//AAAAAAAAAAAAAAAAAAD/////AAAAAAAA//8AAA==")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_nu4fj"]
+resource_name = "7_denari_Cube"
+_surfaces = [{
+"aabb": AABB(-1, -1, -1, 2, 2, 2),
+"attribute_data": PackedByteArray("+n///wKmA9gEt5i72Zev1Biktr3//23/gn8agMC0jLg0tUahGKSlnf2pV7ff/6CAAqb90VmxheMNuOH/OJSX7PCWsNHCxtj/vaOj4sq22qE7upeA8JYP5eaqXaPLxnGA"),
+"format": 34896613399,
+"index_count": 36,
+"index_data": PackedByteArray("AAAUAA4AAAAGABQACgATAAcACgAWABMAFQAMABIAFQAQAAwAEQALAAUAEQAXAAsABAAIAAIABAAJAAgADwABAA0ADwADAAEA"),
+"material": SubResource("StandardMaterial3D_7tul2"),
+"name": "Material",
+"primitive": 3,
+"uv_scale": Vector4(1.9951, 1.99581, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("/////wAA9P//////AAD///////8AAHjT//8AAAAA/////wAAAAC21f//AAAAAP+/////////4/////////8qwv///////7bV//8AAP//B9j//wAA//+Kv///AAD///+/AAD//wAA1dMAAP//AAD//wAA//8AAPf/AAAAAAAA//8AAAAAAACy1QAAAAAAAP+/AAD/////BdIAAP////+KvwAA//////T/AAAAAP//1dMAAAAA///rvAAAAAD///+/CoD5v3u3gsj6LIIpbcSRuzQq5SprAMl/HoDvv/////80KuUqhCc9LP////8eAPB/etNB1tCpLdYCwAcAe7eCyMXVG9UeAPB/HtFv1/////8KgPm/etNB1v////8XAC+A")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_7d6xl")
+
+[node name="7_denari" type="Node3D"]
+
+[node name="Cube" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.065, 0, 0, 0, 0.0015, 0, 0, 0, 0.1081, 0, 0, 0)
+mesh = SubResource("ArrayMesh_nu4fj")
+skeleton = NodePath("")

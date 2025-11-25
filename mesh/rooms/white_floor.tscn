@@ -1,0 +1,49 @@
+[gd_scene load_steps=5 format=3 uid="uid://bqxymg488b6r7"]
+
+[ext_resource type="Texture2D" uid="uid://b24rv734uy173" path="res://mesh/rooms/asylum_room_floor_asylum_pad.png" id="1_mit4a"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6nvnf"]
+resource_name = "Materiale"
+cull_mode = 2
+albedo_texture = ExtResource("1_mit4a")
+roughness = 0.5
+texture_filter = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_85ad2"]
+_surfaces = [{
+"aabb": AABB(-1, 0, -1, 2, 1e-05, 2),
+"format": 34896613377,
+"index_count": 6,
+"index_data": PackedByteArray(0, 0, 3, 0, 1, 0, 0, 0, 2, 0, 3, 0),
+"name": "Materiale",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 4,
+"vertex_data": PackedByteArray(0, 0, 0, 0, 255, 255, 0, 0, 255, 255, 0, 0, 255, 255, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 255, 255, 0, 0, 0, 0, 0, 0)
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_y0h8f"]
+resource_name = "asylum_room_floor_Piano"
+_surfaces = [{
+"aabb": AABB(-1, 0, -1, 2, 1e-05, 2),
+"attribute_data": PackedByteArray(255, 127, 255, 255, 255, 255, 255, 255, 255, 127, 255, 127, 255, 255, 255, 127),
+"format": 34896613399,
+"index_count": 6,
+"index_data": PackedByteArray(0, 0, 3, 0, 1, 0, 0, 0, 2, 0, 3, 0),
+"material": SubResource("StandardMaterial3D_6nvnf"),
+"name": "Materiale",
+"primitive": 3,
+"uv_scale": Vector4(2.57143, 2, 0, 0),
+"vertex_count": 4,
+"vertex_data": PackedByteArray(0, 0, 0, 0, 255, 255, 255, 191, 255, 255, 0, 0, 255, 255, 255, 191, 0, 0, 0, 0, 0, 0, 255, 191, 255, 255, 0, 0, 0, 0, 255, 191, 255, 255, 255, 127, 255, 255, 255, 127, 255, 255, 255, 127, 255, 255, 255, 127)
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_85ad2")
+
+[node name="asylum_room_floor" type="Node3D"]
+
+[node name="Piano" type="MeshInstance3D" parent="."]
+transform = Transform3D(3.25, 0, 0, 0, 1, 0, 0, 0, 2.25, 0, 0, 0)
+mesh = SubResource("ArrayMesh_y0h8f")
+skeleton = NodePath("")

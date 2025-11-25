@@ -1,0 +1,141 @@
+[gd_scene load_steps=8 format=3 uid="uid://dyyr3vx1ide5q"]
+
+[ext_resource type="Script" path="res://scripts/Menues/SettingsScript.cs" id="1_gt6fl"]
+[ext_resource type="Shader" path="res://shader/blur.gdshader" id="2_t38yq"]
+[ext_resource type="FontFile" uid="uid://dlhjp1l3y6mh1" path="res://font/VT323-Regular.ttf" id="3_jsrpd"]
+[ext_resource type="Texture2D" uid="uid://bimxnkeqf6pc0" path="res://2D/menues/BackMenu.png" id="4_7n6qh"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_0q8me"]
+shader = ExtResource("2_t38yq")
+shader_parameter/blur = 0.667
+shader_parameter/brightness = 0.75
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_tyjhh"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_5y2i2"]
+
+[node name="Settings" type="Node2D" node_paths=PackedStringArray("buttonList", "sliders")]
+script = ExtResource("1_gt6fl")
+buttonList = [NodePath("fullscreen"), NodePath("LuminosityLabel"), NodePath("MusicVolume"), NodePath("EffectsVolums"), NodePath("goBack")]
+sliders = [NodePath("LuminosityIntensity"), NodePath("HSlider"), NodePath("HSliderEffects")]
+
+[node name="ColorRect" type="ColorRect" parent="."]
+material = SubResource("ShaderMaterial_0q8me")
+offset_left = -309.0
+offset_top = -110.0
+offset_right = 1686.0
+offset_bottom = 1060.0
+
+[node name="fullscreen" type="CheckBox" parent="."]
+z_index = 1
+offset_left = 430.0
+offset_top = 90.0
+offset_right = 650.0
+offset_bottom = 140.0
+theme_override_fonts/font = ExtResource("3_jsrpd")
+theme_override_font_sizes/font_size = 32
+theme_override_styles/focus = SubResource("StyleBoxEmpty_tyjhh")
+button_pressed = true
+text = "FULLSCREEN "
+alignment = 1
+
+[node name="LuminosityLabel" type="Button" parent="."]
+z_index = 1
+offset_left = 430.0
+offset_top = 193.0
+offset_right = 650.0
+offset_bottom = 243.0
+size_flags_horizontal = 4
+theme_override_colors/font_disabled_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("3_jsrpd")
+theme_override_font_sizes/font_size = 32
+theme_override_styles/focus = SubResource("StyleBoxEmpty_5y2i2")
+disabled = true
+toggle_mode = true
+text = "LUMINOSITA'"
+flat = true
+
+[node name="LuminosityIntensity" type="HSlider" parent="."]
+z_index = 1
+offset_left = 430.0
+offset_top = 243.0
+offset_right = 650.0
+offset_bottom = 268.0
+value = 50.0
+
+[node name="MusicVolume" type="Button" parent="."]
+z_index = 1
+offset_left = 430.0
+offset_top = 321.0
+offset_right = 650.0
+offset_bottom = 371.0
+size_flags_horizontal = 4
+theme_override_colors/font_disabled_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("3_jsrpd")
+theme_override_font_sizes/font_size = 32
+theme_override_styles/focus = SubResource("StyleBoxEmpty_5y2i2")
+disabled = true
+toggle_mode = true
+text = "VOLUME MUSICA"
+flat = true
+
+[node name="HSlider" type="HSlider" parent="."]
+z_index = 1
+offset_left = 430.0
+offset_top = 371.0
+offset_right = 650.0
+offset_bottom = 396.0
+value = 50.0
+
+[node name="EffectsVolums" type="Button" parent="."]
+z_index = 1
+offset_left = 430.0
+offset_top = 449.0
+offset_right = 650.0
+offset_bottom = 499.0
+size_flags_horizontal = 4
+theme_override_colors/font_disabled_color = Color(1, 1, 1, 1)
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("3_jsrpd")
+theme_override_font_sizes/font_size = 32
+theme_override_styles/focus = SubResource("StyleBoxEmpty_5y2i2")
+disabled = true
+toggle_mode = true
+text = "VOLUME EFFETTI"
+flat = true
+
+[node name="HSliderEffects" type="HSlider" parent="."]
+z_index = 1
+offset_left = 430.0
+offset_top = 499.0
+offset_right = 650.0
+offset_bottom = 524.0
+value = 50.0
+
+[node name="goBack" type="Button" parent="."]
+z_index = 1
+offset_left = 430.0
+offset_top = 595.0
+offset_right = 650.0
+offset_bottom = 645.0
+theme_override_fonts/font = ExtResource("3_jsrpd")
+theme_override_font_sizes/font_size = 32
+theme_override_styles/focus = SubResource("StyleBoxEmpty_tyjhh")
+text = "TORNA AL MENU"
+flat = true
+
+[node name="background" type="Sprite2D" parent="."]
+modulate = Color(1, 1, 1, 0.878431)
+texture = ExtResource("4_7n6qh")
+centered = false
+
+[connection signal="mouse_entered" from="fullscreen" to="." method="OnFullScreenHovered"]
+[connection signal="pressed" from="fullscreen" to="." method="OnFullScreenSelected"]
+[connection signal="mouse_entered" from="LuminosityLabel" to="." method="OnLuminosityButtonHovered"]
+[connection signal="value_changed" from="LuminosityIntensity" to="." method="OnLuminosityValueChanged"]
+[connection signal="mouse_entered" from="MusicVolume" to="." method="OnMusicButtonHovered"]
+[connection signal="value_changed" from="HSlider" to="." method="OnMusicValueChanged"]
+[connection signal="mouse_entered" from="EffectsVolums" to="." method="OnEffectsButtonHovered"]
+[connection signal="value_changed" from="HSliderEffects" to="." method="OnEffectsValueChanged"]
+[connection signal="mouse_entered" from="goBack" to="." method="OnGoBackHovered"]
+[connection signal="pressed" from="goBack" to="." method="OnGoToMenuPressed"]

@@ -1,0 +1,54 @@
+[gd_scene load_steps=6 format=3 uid="uid://cuojlvbm25xtw"]
+
+[ext_resource type="Texture2D" uid="uid://b2sqslfwtljqo" path="res://mesh/rooms/floor_top_big_WoodFine0090_1_350.jpg" id="1_65j0n"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_vs3hi"]
+resource_name = "Materiale"
+cull_mode = 2
+albedo_texture = ExtResource("1_65j0n")
+roughness = 0.5
+texture_filter = 0
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_aww7q"]
+albedo_texture = ExtResource("1_65j0n")
+texture_filter = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_0ifbh"]
+_surfaces = [{
+"aabb": AABB(-1, 0, -1, 2, 1e-05, 2),
+"format": 34896613377,
+"index_count": 6,
+"index_data": PackedByteArray(0, 0, 3, 0, 1, 0, 0, 0, 2, 0, 3, 0),
+"material": SubResource("StandardMaterial3D_aww7q"),
+"name": "Materiale",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 4,
+"vertex_data": PackedByteArray(0, 0, 0, 0, 255, 255, 0, 0, 255, 255, 0, 0, 255, 255, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 255, 255, 0, 0, 0, 0, 0, 0)
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_ca85v"]
+resource_name = "floor_top_big_Piano"
+_surfaces = [{
+"aabb": AABB(-1, 0, -1, 2, 1e-05, 2),
+"attribute_data": PackedByteArray(33, 52, 255, 255, 255, 255, 255, 255, 33, 52, 33, 52, 255, 255, 33, 52),
+"format": 34896613399,
+"index_count": 6,
+"index_data": PackedByteArray(0, 0, 3, 0, 1, 0, 0, 0, 2, 0, 3, 0),
+"material": SubResource("StandardMaterial3D_vs3hi"),
+"name": "Materiale",
+"primitive": 3,
+"uv_scale": Vector4(4.91061, 4.91061, 0, 0),
+"vertex_count": 4,
+"vertex_data": PackedByteArray(0, 0, 0, 0, 255, 255, 255, 191, 255, 255, 0, 0, 255, 255, 255, 191, 0, 0, 0, 0, 0, 0, 255, 191, 255, 255, 0, 0, 0, 0, 255, 191, 255, 255, 255, 127, 255, 255, 255, 127, 255, 255, 255, 127, 255, 255, 255, 127)
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_0ifbh")
+
+[node name="floor_top_big" type="Node3D"]
+
+[node name="Piano" type="MeshInstance3D" parent="."]
+transform = Transform3D(7.5, 0, 0, 0, 1, 0, 0, 0, 9.75, 0, 0, 0)
+mesh = SubResource("ArrayMesh_ca85v")
+skeleton = NodePath("")

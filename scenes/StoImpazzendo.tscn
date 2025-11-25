@@ -1,0 +1,17 @@
+[gd_scene load_steps=2 format=3 uid="uid://c3pfwt2wyxuvb"]
+
+[ext_resource type="PackedScene" uid="uid://c41hqpl8tdc6g" path="res://scenes/DialogLabel.tscn" id="1_lmt5f"]
+
+[node name="Node" type="Node"]
+
+[node name="Node2D" type="Node2D" parent="."]
+
+[node name="DialogLabel" parent="Node2D" node_paths=PackedStringArray("player") instance=ExtResource("1_lmt5f")]
+visibility_layer = 1023
+z_index = 4096
+offset_left = 72.5
+offset_top = 255.0
+offset_right = 842.5
+offset_bottom = 435.0
+scale = Vector2(0.5, 0.5)
+player = NodePath("")

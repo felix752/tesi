@@ -1,0 +1,59 @@
+[gd_scene load_steps=9 format=3 uid="uid://b0sdkadoyt2np"]
+
+[ext_resource type="Script" path="res://scripts/Player.cs" id="1_ctvuk"]
+[ext_resource type="AudioStream" uid="uid://du4dvcr114l0u" path="res://sounds/walking-sound-effect-272246.mp3" id="2_m2dpk"]
+[ext_resource type="Script" path="res://scripts/PlayerRayCast3d.cs" id="2_ywfye"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_mqx65"]
+height = 2.4
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_n6fgj"]
+height = 2.4
+radial_segments = 4
+
+[sub_resource type="Animation" id="Animation_wdhfu"]
+length = 0.001
+
+[sub_resource type="Animation" id="Animation_rv0ro"]
+resource_name = "newAnimation"
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_yccqx"]
+_data = {
+"RESET": SubResource("Animation_wdhfu"),
+"newAnimation": SubResource("Animation_rv0ro")
+}
+
+[node name="Player" type="CharacterBody3D" node_paths=PackedStringArray("head", "rayCast3D", "walkAudio", "animationPlayer")]
+process_mode = 1
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.2, 0)
+collision_mask = 255
+script = ExtResource("1_ctvuk")
+head = NodePath("Head")
+rayCast3D = NodePath("Head/Camera3D/RayCast3D")
+walkAudio = NodePath("AudioStreamPlayer")
+animationPlayer = NodePath("Player animation")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("CapsuleShape3D_mqx65")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = SubResource("CapsuleMesh_n6fgj")
+
+[node name="Head" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
+
+[node name="Camera3D" type="Camera3D" parent="Head"]
+far = 444.0
+
+[node name="RayCast3D" type="RayCast3D" parent="Head/Camera3D"]
+target_position = Vector3(0, 0, -3)
+script = ExtResource("2_ywfye")
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("2_m2dpk")
+parameters/looping = true
+
+[node name="Player animation" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_yccqx")
+}
