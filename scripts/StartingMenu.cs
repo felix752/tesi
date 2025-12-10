@@ -30,13 +30,13 @@ public partial class StartingMenu : Node
     {
 
         if (@event.IsActionPressed(Main.ACTION_NAME_PAUSE)) {
-            return;/*
+            
             textLabel.Clean();
             textLabel.Visible = false;
             textLabel.SetProcessInput(false);
             GetViewport().SetInputAsHandled();
             this.SetProcessInput(false);
-            this.EmitSignal(SignalName.Shortcut);*/
+            this.EmitSignal(SignalName.Shortcut);
         }
 
         if (@event is InputEventMouseMotion)

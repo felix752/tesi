@@ -1,4 +1,4 @@
-[gd_scene load_steps=301 format=3 uid="uid://d3njv7v3jb0dd"]
+[gd_scene load_steps=304 format=3 uid="uid://d3njv7v3jb0dd"]
 
 [ext_resource type="Script" path="res://scripts/Main.cs" id="1_n6jm4"]
 [ext_resource type="PackedScene" uid="uid://b0sdkadoyt2np" path="res://scenes/player.tscn" id="1_rvmui"]
@@ -180,12 +180,15 @@
 [ext_resource type="PackedScene" uid="uid://chkmecn0yobmv" path="res://mesh/doors/door_3.glb" id="154_33vsl"]
 [ext_resource type="PackedScene" uid="uid://vexx03adsomb" path="res://mesh/doors/door_2.glb" id="155_ae2yh"]
 [ext_resource type="PackedScene" uid="uid://cjrt5t04dgx4x" path="res://scenes/StartingScene.tscn" id="157_gjs15"]
+[ext_resource type="Script" path="res://scripts/roba per la tesi/Test.cs" id="157_jbacl"]
+[ext_resource type="Script" path="res://scripts/roba per la tesi/Test2.cs" id="158_mqjhy"]
 [ext_resource type="Script" path="res://scripts/InteractibleObjects/Furni1.cs" id="158_v1gsh"]
 [ext_resource type="PackedScene" uid="uid://b2dfln3i7r6cs" path="res://mesh/furnitures/wheelchair.glb" id="161_54m4n"]
 [ext_resource type="PackedScene" uid="uid://cvkdgufbcj7p5" path="res://mesh/doors/door_4.glb" id="165_jqmuj"]
 [ext_resource type="PackedScene" uid="uid://btgh08cfhiak1" path="res://mesh/doors/door_5.glb" id="166_8r1fp"]
 [ext_resource type="PackedScene" uid="uid://bjxtaayy0b1m0" path="res://mesh/doors/door_6.glb" id="167_2m3sg"]
 [ext_resource type="PackedScene" uid="uid://dlgu5qoue4f2h" path="res://scenes/menues.tscn" id="177_a4nxk"]
+[ext_resource type="PackedScene" uid="uid://ckayv8ekgv02q" path="res://scenes/DialogTextEdit.tscn" id="180_wieiy"]
 [ext_resource type="PackedScene" uid="uid://c235bqx80dpdo" path="res://scenes/non_cut_scene.tscn" id="187_a411n"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_fh86t"]
@@ -593,6 +596,9 @@ size = Vector3(0, 5, 4.875)
 [sub_resource type="BoxShape3D" id="BoxShape3D_ysmbm"]
 size = Vector3(2.69153, 0.721619, 1)
 
+[sub_resource type="BoxShape3D" id="BoxShape3D_8pg61"]
+size = Vector3(1.40186, 2.91412, 1)
+
 [sub_resource type="BoxShape3D" id="BoxShape3D_uikig"]
 size = Vector3(2.9812, 4.03235, 4.96793)
 
@@ -761,23 +767,7 @@ _data = {
 [sub_resource type="BoxMesh" id="BoxMesh_70wh5"]
 size = Vector3(1080, 720, 1)
 
-[sub_resource type="Environment" id="Environment_vf3ra"]
-background_mode = 2
-ambient_light_source = 2
-ambient_light_color = Color(1, 1, 0.937255, 1)
-ambient_light_energy = 0.3
-fog_enabled = true
-fog_light_color = Color(0.748226, 0.750869, 0.790106, 1)
-fog_light_energy = 0.2
-volumetric_fog_enabled = true
-volumetric_fog_emission_energy = 0.0
-adjustment_enabled = true
-adjustment_brightness = 0.8
-adjustment_contrast = 1.05
-adjustment_saturation = 0.8
-
 [sub_resource type="World3D" id="World3D_oiwiu"]
-environment = SubResource("Environment_vf3ra")
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_vcbd1"]
 
@@ -993,7 +983,7 @@ _data = {
 "new_animation": SubResource("Animation_etnam")
 }
 
-[node name="Main" type="Node3D" node_paths=PackedStringArray("player", "gianmarco", "obtainItemAnimation", "textEdit", "subViewport", "textureRect", "startingMenu", "pointer", "closeIntroAnimationPlayer", "musicStreamPlayer", "menues", "nonCutScene", "dialog", "asylum", "animationPlayer")]
+[node name="Main" type="Node3D" node_paths=PackedStringArray("player", "gianmarco", "obtainItemAnimation", "textEdit", "testEdit", "subViewport", "textureRect", "startingMenu", "pointer", "closeIntroAnimationPlayer", "musicStreamPlayer", "menues", "nonCutScene", "dialog", "asylum", "animationPlayer")]
 process_mode = 3
 transform = Transform3D(1, 0.000436332, 0, -0.000436332, 1, 0, 0, 0, 1, 0, 0, 0)
 script = ExtResource("1_n6jm4")
@@ -1001,6 +991,7 @@ player = NodePath("Manicomio/player")
 gianmarco = NodePath("Manicomio/FirstFloor/Gianmarco")
 obtainItemAnimation = NodePath("itemAnimation")
 textEdit = NodePath("SubViewportContainer/SubViewport/DialogLabel")
+testEdit = NodePath("SubViewportContainer/SubViewport/TextEdit")
 subViewport = NodePath("SubViewportContainer/SubViewport")
 textureRect = NodePath("TextureRect")
 startingMenu = NodePath("SubViewportContainer/SubViewport/StartingScene")
@@ -3035,6 +3026,32 @@ transform = Transform3D(-4.37114e-08, 6.66985e-22, -1, 0, 1, 3.82137e-15, 1, 0, 
 transform = Transform3D(1, 0, 0, 0, 1, 3.82137e-15, 0, 3.82137e-15, 1, 0, 1.67969, -0.0858641)
 shape = SubResource("BoxShape3D_jqka5")
 
+[node name="TEST" parent="Manicomio/FirstFloor/rooms 5-6-7/room5" node_paths=PackedStringArray("dialogTextEdit") instance=ExtResource("11_ywv2c")]
+transform = Transform3D(33, 1.86265e-09, 2.77285e-17, -1.86265e-09, 33, -4.54747e-13, -7.61381e-17, 2.27374e-13, 33, -0.326592, 0.000142574, 0.864044)
+script = ExtResource("157_jbacl")
+dialogTextEdit = NodePath("../../../../../SubViewportContainer/SubViewport/TextEdit")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Manicomio/FirstFloor/rooms 5-6-7/room5/TEST"]
+transform = Transform3D(0.03, 0, 0, 0, 0.03, 0, 0, 0, 0.03, 0, 0, 0)
+script = ExtResource("11_bfas3")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Manicomio/FirstFloor/rooms 5-6-7/room5/TEST/StaticBody3D"]
+transform = Transform3D(1, -2.91038e-11, -2.65121e-18, 2.91038e-11, 1, -7.10543e-15, 3.15147e-17, -7.81597e-14, 1, -0.00148392, 1.54371, 2.38419e-07)
+shape = SubResource("BoxShape3D_8pg61")
+
+[node name="TEST2" parent="Manicomio/FirstFloor/rooms 5-6-7/room5" node_paths=PackedStringArray("dialogTextEdit") instance=ExtResource("11_ywv2c")]
+transform = Transform3D(-31.2208, 2.79397e-09, 10.6893, 2.23281e-09, 33, 1.70303e-10, -10.6893, 4.54747e-13, -31.2208, -1.47329, 0.000642776, 5.24073)
+script = ExtResource("158_mqjhy")
+dialogTextEdit = NodePath("../../../../../SubViewportContainer/SubViewport/TextEdit")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Manicomio/FirstFloor/rooms 5-6-7/room5/TEST2"]
+transform = Transform3D(0.03, 0, 0, 0, 0.03, 0, 0, 0, 0.03, 0, 0, 0)
+script = ExtResource("11_bfas3")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Manicomio/FirstFloor/rooms 5-6-7/room5/TEST2/StaticBody3D"]
+transform = Transform3D(1, -2.91038e-11, -2.65121e-18, 2.91038e-11, 1, -7.10543e-15, 3.15147e-17, -7.81597e-14, 1, -0.00148392, 1.54371, 2.38419e-07)
+shape = SubResource("BoxShape3D_8pg61")
+
 [node name="room6" type="Node3D" parent="Manicomio/FirstFloor/rooms 5-6-7"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.23871e-18, 0, 1.84234)
 
@@ -3549,6 +3566,15 @@ size = Vector2i(540, 360)
 size_2d_override_stretch = true
 render_target_update_mode = 4
 
+[node name="TextEdit" parent="SubViewportContainer/SubViewport" node_paths=PackedStringArray("player") instance=ExtResource("180_wieiy")]
+visible = false
+offset_left = 72.5
+offset_top = 255.0
+offset_right = 302.5
+offset_bottom = 75.0
+scale = Vector2(0.5, 0.5)
+player = NodePath("../../../Manicomio/player")
+
 [node name="DialogLabel" parent="SubViewportContainer/SubViewport" node_paths=PackedStringArray("player") instance=ExtResource("4_idbbt")]
 visibility_layer = 1023
 z_index = 4096
@@ -3692,6 +3718,8 @@ libraries = {
 [connection signal="FinishedDialog" from="Manicomio/FirstFloor/Gianmarco/Path3D/PathFollow3D/model/Default Dialog" to="Manicomio/FirstFloor/Gianmarco" method="OnDialogFinished"]
 [connection signal="body_entered" from="Manicomio/FirstFloor/Gianmarco/Path3D/PathFollow3D/model/Area3D" to="Manicomio/FirstFloor/Gianmarco" method="OnBodyEntered"]
 [connection signal="body_exited" from="Manicomio/FirstFloor/Gianmarco/Path3D/PathFollow3D/model/Area3D" to="Manicomio/FirstFloor/Gianmarco" method="OnBodyExited"]
+[connection signal="OnClick" from="Manicomio/FirstFloor/rooms 5-6-7/room5/TEST/StaticBody3D" to="Manicomio/FirstFloor/rooms 5-6-7/room5/TEST" method="OnInteraction"]
+[connection signal="OnClick" from="Manicomio/FirstFloor/rooms 5-6-7/room5/TEST2/StaticBody3D" to="Manicomio/FirstFloor/rooms 5-6-7/room5/TEST2" method="OnInteraction"]
 [connection signal="OnClick" from="Manicomio/FirstFloor/rooms 5-6-7/room7/Alfonso/StaticBody3D" to="Manicomio/FirstFloor/rooms 5-6-7/room7/Alfonso" method="Talk"]
 [connection signal="Away" from="Manicomio/FirstFloor/rooms 8-9-10/room8/door8" to="." method="UnlockInventory"]
 [connection signal="Knock" from="Manicomio/FirstFloor/rooms 8-9-10/room8/door8" to="." method="LockInventory"]
@@ -3700,6 +3728,8 @@ libraries = {
 [connection signal="OnClick" from="Manicomio/FirstFloor/Portraits/doctor_portrait/StaticBody3D" to="Manicomio/FirstFloor/Portraits/doctor_portrait" method="SeeObject"]
 [connection signal="OnClick" from="Manicomio/FirstFloor/Portraits/Quadro/StaticBody3D" to="Manicomio/FirstFloor/Portraits/Quadro" method="SeeObject"]
 [connection signal="LaboratoryExited" from="Manicomio/laboratory" to="Manicomio" method="OnLaboratoryExited"]
+[connection signal="DialogFinished" from="SubViewportContainer/SubViewport/TextEdit" to="." method="UnlockMenues"]
+[connection signal="DialogStarted" from="SubViewportContainer/SubViewport/TextEdit" to="." method="LockMenues"]
 [connection signal="FinishedDialog" from="SubViewportContainer/SubViewport/DialogLabel" to="." method="UnlockInventory"]
 [connection signal="StartedDialog" from="SubViewportContainer/SubViewport/DialogLabel" to="." method="LockInventory"]
 [connection signal="Shortcut" from="SubViewportContainer/SubViewport/StartingScene" to="." method="DeleteStartingMenu"]

@@ -1,12 +1,12 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1764094588
+::res://::1765382728
 .gitignore.txt::TextFile::-1::1760016859::0::1::::<><>::
 blur.gdshader::Shader::-1::1760016868::0::1::::<><>::
-export_presets.cfg::TextFile::-1::1762723664::0::1::::<><>::
+export_presets.cfg::TextFile::-1::1764871046::0::1::::<><>::
 glagla.gdshader::Shader::-1::1760016868::0::1::::<><>::
-README.md::TextFile::-1::1760016868::0::1::::<><>::
+README.md::TextFile::-1::1764094634::0::1::::<><>::
 README.txt::TextFile::-1::1760016868::0::1::::<><>::
-::res://2D/::1762686878
+::res://2D/::1764094684
 background (1)_background.jpg::CompressedTexture2D::7474609083426399849::1760016868::1761473849::1::::<><>::
 Bussbuss.png::CompressedTexture2D::1807009151560495060::1762686872::1762686878::1::::<><>::
 DefGrab.png::CompressedTexture2D::2077475750598568728::1760016868::1761473848::1::::<><>::
@@ -16,7 +16,7 @@ Occhiett.png::CompressedTexture2D::630295116705746483::1760016868::1761473848::1
 Plus.png::CompressedTexture2D::5278675499316986658::1760016868::1761473848::1::::<><>::
 potion.png::CompressedTexture2D::2878365227614239698::1760016868::1761473848::1::::<><>::
 title_final.png::CompressedTexture2D::7956792170178426153::1760016868::1761473848::1::::<><>::
-::res://2D/menues/::1762625042
+::res://2D/menues/::1764094684
 BackMenu.png::CompressedTexture2D::2974124204148073185::1760016868::1761473849::1::::<><>::
 buttonTheme.tres::Theme::3592570984173135037::1760016868::0::1::::<><>::
 category_button_label.png::CompressedTexture2D::4201022860110579240::1760016868::1761473849::1::::<><>::
@@ -33,7 +33,7 @@ item_name_label.png::CompressedTexture2D::569377144648904043::1760016868::176147
 item_selected_label.png::CompressedTexture2D::469284859950958340::1760016868::1761473848::1::::<><>::
 Keyboard.png::CompressedTexture2D::5397386971286398352::1762625010::1762625042::1::::<><>::
 text_label.png::CompressedTexture2D::3515374007662351708::1760016868::1761473848::1::::<><>::
-::res://2D/objectIcon/::1762677510
+::res://2D/objectIcon/::1764094684
 7d_icon.png::CompressedTexture2D::1961982474924855015::1760016868::1761473848::1::::<><>::
 candy_icon.png::CompressedTexture2D::187223008544596892::1760016868::1761473848::1::::<><>::
 document_icon.png::CompressedTexture2D::1594969468439319212::1760016868::1761473848::1::::<><>::
@@ -42,7 +42,7 @@ key_icon (1).png::CompressedTexture2D::6537950410541223432::1760016868::17614738
 newspaper_icon.png::CompressedTexture2D::5013519829363929043::1760016868::1761473848::1::::<><>::
 pill_icon.png::CompressedTexture2D::7708681479314428467::1760016868::1761473848::1::::<><>::
 tissue_icon.png::CompressedTexture2D::3414121693877489173::1762677504::1762677510::1::::<><>::
-::res://Animations/::1762532471
+::res://Animations/::1764094684
 gammòn.tscn::PackedScene::1875712875875702415::1760016868::0::1::::<><>::uid://ba2w04couppma::::res://Animations/walking_nurse (1)_Nurse_tx.png
 personaggio_camminante.glb::PackedScene::6272195266427513122::1760016868::1761473857::1::::<><>::
 prova_nurse.glb::PackedScene::2963467944697987258::1760016868::1761473857::1::::<><>::uid://dw6sskahlgs13::::res://Animations/prova_nurse_Nurse_tx.png
@@ -51,25 +51,25 @@ tiny_floor_top.glb::PackedScene::4292219220727258090::1760016868::1761473856::1:
 tiny_floor_top_WoodFine0090_1_350.jpg::CompressedTexture2D::5859897706806051280::1760016868::1761473849::1::::<><>::
 walking_nurse.glb::PackedScene::2238658661541464581::1760016868::1761473855::1::::<><>::uid://bi4oqyu6gcwbt::::res://Animations/walking_nurse_Nurse_tx.png
 walking_nurse_Nurse_tx.png::CompressedTexture2D::3008678291139414493::1760016868::1761473849::1::::<><>::
-::res://Cut scene/::1762711783
+::res://Cut scene/::1764094684
 Finale.ogv::VideoStreamTheora::-1::1762710432::0::1::::<><>::
 Prima.ogv::VideoStreamTheora::-1::1762711772::0::1::::<><>::
-::res://fippo's things/::1762364842
+::res://fippo's things/::1764094684
 forest.glb::PackedScene::5557861378258578406::1760016868::1761473855::1::::<><>::uid://2043exsy8iws::::res://fippo's things/forest_forest.png
 forest_forest.png::CompressedTexture2D::1948519263573052198::1760016868::1761473849::1::::<><>::
 grass.glb::PackedScene::2487602862220562285::1760016868::1761473856::1::::<><>::uid://bh1mwlel75ywt::::res://fippo's things/grass_grass.png
 grass_grass.png::CompressedTexture2D::2932184886623816495::1760016868::1761473849::1::::<><>::
 Sestroba Productions_White.png::CompressedTexture2D::7699813597750023765::1760016868::1761473849::1::::<><>::
-::res://font/::1762364842
+::res://font/::1764094684
 Early GameBoy.ttf::FontFile::6356108076828515878::1760016868::1761473844::1::::<><>::
 VT323-Regular.ttf::FontFile::7946364599124998256::1760016868::1761473844::1::::<><>::
-::res://mesh/::1762364845
+::res://mesh/::1764094687
 background (1).glb::PackedScene::2226617655355387017::1760016868::1761473851::1::::<><>::uid://ba48tm334ydi0::::res://mesh/background (1)_background.jpg
 background (1)_background.jpg::CompressedTexture2D::2448325904252938949::1760016868::1761473847::1::::<><>::
 background.glb::PackedScene::151495367283869720::1760016868::1761473852::1::::<><>::uid://bqul6vas0fesd::::res://mesh/background_background.jpg
 background.tscn::PackedScene::5264804712654302551::1760023767::0::1::::<><>::uid://ba48tm334ydi0::::res://mesh/background (1)_background.jpg
 background_background.jpg::CompressedTexture2D::3551454087356098415::1760016868::1761473847::1::::<><>::
-::res://mesh/doors/::1762677974
+::res://mesh/doors/::1764094685
 a_book.tscn::PackedScene::5189063338348030441::1760016868::0::1::::<><>::uid://8y28sh2wqc3c::::res://mesh/doors/book_a_360_F_357804022_zxENYSeIkHbYdWB9sVprOhQRSefDxShn.png
 book_a.glb::PackedScene::1363954289975519670::1760016868::1761473857::1::::<><>::uid://ceur46y5hxpvr::::res://mesh/doors/book_a_360_F_357804022_zxENYSeIkHbYdWB9sVprOhQRSefDxShn.png
 book_a_360_F_357804022_zxENYSeIkHbYdWB9sVprOhQRSefDxShn.png::CompressedTexture2D::5095969940592298623::1760016868::1761473884::1::::<><>::
@@ -113,7 +113,7 @@ infame.tscn::PackedScene::9081209757434052928::1760016868::0::1::::<><>::uid://d
 i_book.tscn::PackedScene::7688390868216482675::1760016868::0::1::::<><>::uid://h5ggwx7daxy4::::res://mesh/doors/book_i_360_F_357804022_zxENYSeIkHbYdWB9sVprOhQRSefDxShn.png
 m_book.tscn::PackedScene::7992073406344807379::1760016868::0::1::::<><>::uid://cr6lv7w8j2ma4::::res://mesh/doors/book_m_360_F_357804022_zxENYSeIkHbYdWB9sVprOhQRSefDxShn.png
 s_book.tscn::PackedScene::7630722577900251405::1760016868::0::1::::<><>::uid://cmuicxop4ay2s::::res://mesh/doors/book_s_360_F_357804022_zxENYSeIkHbYdWB9sVprOhQRSefDxShn.png
-::res://mesh/furnitures/::1762678396
+::res://mesh/furnitures/::1764094686
 alcool_paradise.glb::PackedScene::3966464251726987589::1760016868::1761473869::1::::<><>::uid://dyxgbd4tradk5::::res://mesh/furnitures/alcool_paradise_wood_txt_2.png
 alcool_paradise_wood_txt_2.png::CompressedTexture2D::8891641277741332014::1760016868::1761473848::1::::<><>::
 bed.glb::PackedScene::8911981050536237912::1760016868::1761473868::1::::<><>::uid://bre76t2gduvm7::::res://mesh/furnitures/bed_metal.png<>uid://bgap4ky70u52k::::res://mesh/furnitures/bed_pillow_txt.png<>uid://cyqu0bjh37uwo::::res://mesh/furnitures/bed_mattress_txt.png<>uid://bpimok2fftjbs::::res://mesh/furnitures/bed_blanket_txt.png
@@ -248,7 +248,7 @@ whisky_bottle_brown_glass.png::CompressedTexture2D::4072271831295980865::1760016
 whisky_bottle_cork_txt.png::CompressedTexture2D::3899712962427563223::1760016869::1761473845::1::::<><>::
 whisky_bottle_glass.png::CompressedTexture2D::8290243941615222655::1760016869::1761473846::1::::<><>::
 whisky_bottle_whisky_tag_txt.png::CompressedTexture2D::1155541935688155913::1760016869::1761473846::1::::<><>::
-::res://mesh/objects/::1762687184
+::res://mesh/objects/::1764094686
 7_denari.glb::PackedScene::7306999498992644793::1760016869::1761473860::1::::<><>::uid://c82w8wggpc5or::::res://mesh/objects/7_denari_7_denari_texture.png
 7_denari.png::CompressedTexture2D::3972413876069750526::1760016869::1761473847::1::::<><>::
 7_denari_7_denari_texture.png::CompressedTexture2D::7146207276915909541::1760016869::1761473847::1::::<><>::
@@ -286,7 +286,7 @@ pope_portrait_wood_txt_2.png::CompressedTexture2D::26378279420395015::1760016869
 portrait.glb::PackedScene::7426853278464089310::1760016869::1761473874::1::::<><>::uid://dpppha4b2cti7::::res://mesh/objects/portrait_Daniel_portrait.png<>uid://bs21mdb85bkdl::::res://mesh/objects/portrait_wood_texture.png
 portrait_Daniel_portrait.png::CompressedTexture2D::8243983672290462236::1760016869::1761473848::1::::<><>::
 portrait_wood_texture.png::CompressedTexture2D::3707158300530449633::1760016869::1761473848::1::::<><>::
-::res://mesh/objects/cards/::1762364845
+::res://mesh/objects/cards/::1764094687
 1b.glb::PackedScene::517438572787485296::1760016869::1761473857::1::::<><>::uid://cuc4myjfdh5nk::::res://mesh/objects/cards/1b_cards_txt.png
 1b_cards_txt.png::CompressedTexture2D::6182530492667195140::1760016869::1761473846::1::::<><>::
 1c.glb::PackedScene::1320215593195870720::1760016869::1761473859::1::::<><>::uid://c7vvwyyu1a757::::res://mesh/objects/cards/1c_cards_txt.png
@@ -369,7 +369,7 @@ portrait_wood_texture.png::CompressedTexture2D::3707158300530449633::1760016869:
 10s_cards_txt.png::CompressedTexture2D::6984123374335848241::1760016869::1761473844::1::::<><>::
 30_cards.glb::PackedScene::6703566708390777780::1760016869::1761473860::1::::<><>::uid://bp4noo1k2j2sa::::res://mesh/objects/cards/30_cards_cards_txt.png
 30_cards_cards_txt.png::CompressedTexture2D::3499935391134590600::1760016869::1761473844::1::::<><>::
-::res://mesh/people/::1762687184
+::res://mesh/people/::1764094687
 bathroom_nurse.glb::PackedScene::2958342658617335625::1762531808::1762531811::1::::<><>::uid://hbfvjxdlfijt::::res://mesh/people/bathroom_nurse_Nurse_felix.png
 bathroom_nurse_Nurse_felix.png::CompressedTexture2D::493727878247986525::1762531809::1762531814::1::::<><>::
 chair.glb::PackedScene::8146133560778299035::1760016869::1761473875::1::::<><>::uid://bps64lpg5ja0c::::res://mesh/people/chair_wood_txt_2.png<>uid://bp6cqdlq6470c::::res://mesh/people/chair_leather-kozha-fon-tekstura-3501.png
@@ -396,7 +396,7 @@ sit_nurse.tscn::PackedScene::6996862645168406432::1760016869::0::1::::<><>::uid:
 sit_nurse_Nurse_tx_2.png::CompressedTexture2D::765128099833112490::1760016869::1761473847::1::::<><>::
 walking_nurse.tscn::PackedScene::637495527872095516::1762687184::0::1::::<><>::uid://bi4oqyu6gcwbt::::res://Animations/walking_nurse_Nurse_tx.png<>uid://du4dvcr114l0u::::res://sounds/walking-sound-effect-272246.mp3<>res://scripts/InteractibleObjects/InteractibleObject.cs
 walking_nurse_Nurse_tx.png::CompressedTexture2D::1217174852496041551::1762528002::1762532165::1::::<><>::
-::res://mesh/rooms/::1762528691
+::res://mesh/rooms/::1764094688
 alejandro.tscn::PackedScene::2496702853929433113::1760016869::0::1::::<><>::uid://br6cbbu58j4ne::::res://mesh/rooms/hall_wall_3_hide_glagla11111.png
 asylum_room_floor.glb::PackedScene::4480108332586752263::1760016869::1761473869::1::::<><>::uid://b24rv734uy173::::res://mesh/rooms/asylum_room_floor_asylum_pad.png
 asylum_room_floor_asylum_pad.png::CompressedTexture2D::4342457832683798372::1760016869::1761473847::1::::<><>::
@@ -480,7 +480,7 @@ white_hole.tscn::PackedScene::5935832502288392194::1760016870::0::1::::<><>::uid
 white_mid.tscn::PackedScene::2681131269480290888::1760016870::0::1::::<><>::uid://b0oinnk8o2exk::::res://mesh/rooms/asylum_room_wall_small_asylum_pad.png
 wood.glb::PackedScene::2679058117334837093::1760016870::1761473858::1::::<><>::uid://bsm78g00q77wf::::res://mesh/rooms/wood_WoodFine0090_1_350.jpg
 wood_WoodFine0090_1_350.jpg::CompressedTexture2D::3676594632112563409::1760016870::1761473846::1::::<><>::
-::res://scenes/::1762880342
+::res://scenes/::1765304223
 AAAAAAAAAAAAAAA.tscn::PackedScene::6564251571257637964::1760020566::0::1::::<><>::uid://ssa7hn70h0b2::::res://mesh/objects/key1.glb
 Archive.tscn::PackedScene::9142691435300824557::1760016870::0::1::::<><>::res://scripts/Archives/ArchiveDrawer.cs<>uid://bjxyyll7dv51m::::res://mesh/furnitures/schedario_txtpll.png<>res://scripts/InteractibleObjects/InteractibleObject.cs<>res://scripts/GameObjects/GameObjectPickable.cs<>uid://b6utbkv02m6fn::::res://mesh/furnitures/document.glb
 ArchiveType1.tscn::PackedScene::3653592178872781714::1760016870::0::1::::<><>::uid://bjxyyll7dv51m::::res://mesh/furnitures/schedario_txtpll.png<>res://scripts/Archives/Archive.cs<>res://scripts/Archives/ArchiveDrawer.cs<>res://scripts/InteractibleObjects/InteractibleObject.cs<>res://scripts/Archives/DrawerWithObject.cs
@@ -490,7 +490,8 @@ ArchiveType4.tscn::PackedScene::962954139046715047::1760016870::0::1::::<><>::re
 buoncompleannodaniele.tscn::PackedScene::4435603009584916292::1762363455::0::1::::<><>::uid://bl7h5dt80qw6m::::res://mesh/furnitures/furni1_wood_txt_2.png<>uid://81i38ei876gb::::res://mesh/furnitures/pill_bottle1.glb<>uid://biatyci64tbf::::res://mesh/furnitures/pill_bottle_green.glb<>uid://cr8xw28tdkak5::::res://mesh/furnitures/pill_bottle.glb<>uid://cb17drlyqcrlc::::res://mesh/furnitures/buatt.glb<>res://scripts/InteractibleObjects/InteractibleObject.cs<>uid://cqp6f2204avio::::res://mesh/furnitures/furni1_gold.png<>uid://br74dfgh3iky1::::res://mesh/furnitures/furni1_glass.png
 Command.tscn::PackedScene::339646093959892299::1761841688::0::1::::<><>::uid://bimxnkeqf6pc0::::res://2D/menues/BackMenu.png<>uid://d4l71clp1dfbd::::res://2D/menues/Group 14 (1).png<>uid://dlhjp1l3y6mh1::::res://font/VT323-Regular.ttf
 Commands menu.tscn::PackedScene::2140069885851539921::1762880342::0::1::::<><>::res://scripts/Menues/CommandsMenu.cs<>uid://bimxnkeqf6pc0::::res://2D/menues/BackMenu.png<>uid://bb0m5hoovq1db::::res://2D/menues/Group 10 (1).png<>uid://dlhjp1l3y6mh1::::res://font/VT323-Regular.ttf<>uid://ci5sf7ei8u241::::res://2D/menues/Keyboard.png
-DialogLabel.tscn::PackedScene::6862446052514520404::1762630981::0::1::::<><>::uid://bp7my6aik3b53::::res://2D/menues/Group 11 (3).png<>uid://dlhjp1l3y6mh1::::res://font/VT323-Regular.ttf<>res://scripts/DialogLabel.cs<>uid://fai7crutee2e::::res://sounds/video-game-text-330163.mp3
+DialogLabel.tscn::PackedScene::6862446052514520404::1765304223::0::1::::<><>::uid://bp7my6aik3b53::::res://2D/menues/Group 11 (3).png<>uid://dlhjp1l3y6mh1::::res://font/VT323-Regular.ttf<>res://scripts/DialogLabel.cs<>uid://fai7crutee2e::::res://sounds/video-game-text-330163.mp3
+DialogTextEdit.tscn::PackedScene::5476226253177923794::1765304223::0::1::::<><>::res://scripts/roba per la tesi/DialogTextEdit.cs<>uid://dlhjp1l3y6mh1::::res://font/VT323-Regular.ttf
 door.tscn::PackedScene::3236380376109664306::1762880341::0::1::::<><>::res://scripts/Doors/Door.cs<>uid://5mhfm2gea0bf::::res://sounds/closing_door.mp3<>uid://c73hjfoayqh57::::res://sounds/opening_door.mp3<>res://scripts/InteractibleObjects/InteractibleObject.cs<>uid://cbbt7d22hgbf8::::res://mesh/doors/door_frame.tscn<>uid://4msucv36wig1::::res://mesh/doors/door.glb
 elPersonajoQueCamina.tscn::PackedScene::667707157884501375::1760016870::0::1::::<><>::uid://ba2w04couppma::::res://Animations/walking_nurse (1)_Nurse_tx.png
 furni1.tscn::PackedScene::5646266104661675023::1762363455::0::1::::<><>::uid://bl7h5dt80qw6m::::res://mesh/furnitures/furni1_wood_txt_2.png<>uid://cqp6f2204avio::::res://mesh/furnitures/furni1_gold.png<>uid://br74dfgh3iky1::::res://mesh/furnitures/furni1_glass.png<>uid://81i38ei876gb::::res://mesh/furnitures/pill_bottle1.glb<>uid://biatyci64tbf::::res://mesh/furnitures/pill_bottle_green.glb<>uid://cr8xw28tdkak5::::res://mesh/furnitures/pill_bottle.glb<>uid://cb17drlyqcrlc::::res://mesh/furnitures/buatt.glb<>res://scripts/InteractibleObjects/InteractibleObject.cs
@@ -499,20 +500,20 @@ impostazioni.tscn::PackedScene::8894422695308871860::1762880342::0::1::::<><>::r
 interectableNPCs.tscn::PackedScene::8419695817172627051::1760016870::0::1::::<><>::uid://cvmke0pffygp3::::res://Animations/personaggio_camminante.glb<>uid://du4dvcr114l0u::::res://sounds/walking-sound-effect-272246.mp3
 inventario.tscn::PackedScene::2532767416313314775::1762880342::0::1::::<><>::res://scripts/Menues/Inventory.cs<>uid://bhakiwri22dws::::res://2D/potion.png<>uid://b04ah6bgaim61::::res://2D/menues/category_button_label.png<>uid://gxlb2mi0bnfo::::res://2D/menues/item_selected_label.png<>uid://4ghynnchpipk::::res://2D/menues/item_label.png<>uid://dlhjp1l3y6mh1::::res://font/VT323-Regular.ttf<>uid://bqc4xw6ruupoe::::res://2D/menues/text_label.png<>uid://i8k4r76ursrb::::res://2D/Occhiett.png<>uid://id2s8q1oaydf::::res://2D/menues/item_name_label.png<>uid://b2c0sfdv5aqo4::::res://scenes/gameObjectCamera.tscn
 laboratory.tscn::PackedScene::8514292641010712147::1762880341::0::1::::<><>::uid://bf4ryr6hyt2qm::::res://mesh/furnitures/offico.tscn<>res://scripts/Laboratory.cs<>uid://dhogjib6ar2uj::::res://mesh/rooms/lab_wall_hole.glb<>uid://c1fdekhuillja::::res://mesh/furnitures/capsula.glb<>uid://dob0g3k65nv34::::res://mesh/rooms/pieroarmenti.tscn<>uid://cmrrjx221dyob::::res://mesh/rooms/mentopavi.tscn<>uid://lc3drwknlb2f::::res://mesh/furnitures/lab_bed.glb<>uid://w14ybvf1co7f::::res://mesh/furnitures/capsula_green_glass.png<>uid://cr8xw28tdkak5::::res://mesh/furnitures/pill_bottle.glb<>res://scripts/GameObjects/GameObjectPickable.cs<>uid://vuclyr7mn8qe::::res://mesh/furnitures/pill_bottle2.glb<>uid://bov3c53bxfli8::::res://2D/objectIcon/tissue_icon.png<>uid://rn3innkdp84n::::res://mesh/furnitures/lamp2.glb<>uid://oyiytqe3pp4s::::res://mesh/objects/fazzoletto.tscn<>res://scripts/InteractibleObjects/InteractibleObject.cs<>res://scripts/CandleLight.cs<>uid://kevup7bvsw17::::res://mesh/people/chair.tscn<>uid://cmpdgbs2hngq6::::res://scenes/furni1.tscn<>res://scripts/Furni3.cs<>uid://b4gvy67gyk1vc::::res://scenes/buoncompleannodaniele.tscn<>uid://cehv13pku1fwf::::res://mesh/furnitures/table.tscn<>res://scripts/Furni2.cs
-main.tscn::PackedScene::9151972252826272549::1762880341::0::1::::<><>::res://scripts/Main.cs<>uid://b0sdkadoyt2np::::res://scenes/player.tscn<>uid://sdahqi07j0wx::::res://sounds/gothic-candlelight-gothic-mystery-soundtrack-1987.mp3<>res://Cut scene/Prima.ogv<>res://scripts/place/Asylum.cs<>res://scripts/NPC/Felice/Felice.cs<>uid://c41hqpl8tdc6g::::res://scenes/DialogLabel.tscn<>uid://c0fbc816hamtc::::res://2D/objectIcon/key_icon (1).png<>uid://bmdyyhavahk6u::::res://scenes/door.tscn<>res://scripts/GameObjects/GameObjectPickable.cs<>uid://11vo6nm1p4xh::::res://mesh/objects/key2.glb<>uid://4pr08mtnymnf::::res://mesh/doors/door_big.glb<>uid://dtknfkfjtwiwh::::res://scenes/laboratory.tscn<>uid://chaktgp7r5qct::::res://mesh/background.tscn<>uid://cpcljoncfhp47::::res://mesh/objects/danielito.tscn<>res://scripts/InteractibleObjects/Paint.cs<>res://scripts/InteractibleObjects/InteractibleObject.cs<>uid://bifbqa5wia0mn::::res://mesh/people/bathroom_nurse.glb<>uid://bm06doqscfpw3::::res://mesh/objects/deus_ex_7_denari.tscn<>uid://c0r1i8tg76jbo::::res://scenes/AAAAAAAAAAAAAAA.tscn<>uid://bcl71s3582w0f::::res://2D/objectIcon/key2_icon.png<>uid://bxniaxekp5p35::::res://mesh/furnitures/pot.glb<>uid://bi4lwlrg8dmxd::::res://mesh/furnitures/cup.glb<>uid://dxq6mnnswc7bq::::res://mesh/rooms/hall_wall_3.glb<>uid://gt3wbywctwhb::::res://mesh/rooms/tiny_floor.glb<>uid://boxic73gfnxda::::res://mesh/rooms/pino.tscn<>res://Cut scene/Finale.ogv<>uid://b2fghulbnj7wg::::res://Animations/tiny_floor_top.glb<>uid://7fvpqsgbaynv::::res://mesh/rooms/genoveffo.tscn<>uid://u6dbf441b5t5::::res://mesh/rooms/franco.tscn<>uid://xvyxpgsjv5x3::::res://mesh/furnitures/giovanni.tscn<>uid://c2ri08roapntc::::res://mesh/objects/cards/30_cards.glb<>uid://dh3key1r62qgr::::res://mesh/rooms/giannisperti.tscn<>res://scripts/Doors/BigDoor.cs<>uid://cwxshfdxt8hc::::res://2D/objectIcon/candy_icon.png<>uid://cicqpa0boh8h::::res://mesh/rooms/paolobitta.tscn<>uid://brgwsf257gio0::::res://mesh/rooms/paperino.tscn<>res://scripts/NPC/Michele/Cards.cs<>uid://bsb3entr5qany::::res://scenes/ArchiveType1.tscn<>uid://t8nvkmpch85m::::res://mesh/rooms/sfriz.tscn<>uid://hmwexf75yo37::::res://mesh/objects/cards/1b.glb<>uid://bf22yxqp4f0wg::::res://mesh/objects/newspaper.glb<>res://scripts/InteractibleObjects/Library.cs<>uid://s2r01f3r0dcy::::res://mesh/objects/cards/1c.glb<>uid://dcms7hocx6i2e::::res://mesh/objects/cards/1d.glb<>uid://bm27gy62yckib::::res://mesh/objects/cards/1s.glb<>uid://dtxf0y4k5nkh4::::res://mesh/rooms/giovanni_2.tscn<>uid://bfu0tfc45qefc::::res://mesh/rooms/pedro.tscn<>uid://bckb5n3j7c6e8::::res://mesh/objects/cards/2b.glb<>uid://i8k4r76ursrb::::res://2D/Occhiett.png<>uid://673om8jc3rsd::::res://2D/DefHand.png<>uid://c327t3krcaomb::::res://mesh/objects/cards/2c.glb<>uid://bbtoli5ynsn1r::::res://mesh/rooms/alejandro.tscn<>uid://cof3ou4bj5qh0::::res://mesh/objects/cards/2d.glb<>uid://4ulysy8850xg::::res://2D/DefGrab.png<>uid://bef0xwk3e1xld::::res://mesh/rooms/wood.glb<>uid://darntnls55b8l::::res://mesh/objects/cards/2s.glb<>uid://b8s12crrk88e5::::res://mesh/objects/cards/3b.glb<>uid://d2nagy2gofyvo::::res://mesh/doors/infame.tscn<>uid://dlsxu4me181q7::::res://mesh/objects/cards/3c.glb<>res://scripts/InteractibleObjects/Shelve.cs<>uid://bf86vfh882i2f::::res://mesh/furnitures/toilette.glb<>uid://byc7m6ny5qw5u::::res://mesh/objects/cards/3d.glb<>uid://d3dfvj0rxuc2x::::res://mesh/objects/cards/3s.glb<>res://scripts/NPC/Felice/FeliceKeyDialog.cs<>res://scripts/NPC/Felice/FeliceAnswerNoDialog.cs<>uid://bncr736snsqs0::::res://mesh/objects/cards/4b.glb<>uid://bhirpgifqgsou::::res://mesh/objects/cards/4c.glb<>uid://dsby6mclug3l4::::res://sounds/bookshelf_door.mp3<>uid://dgym5ehfxa1n2::::res://mesh/doors/s_book.tscn<>uid://bafwf0pw4l4x5::::res://mesh/objects/cards/4d.glb<>uid://doy47q74k6bgi::::res://mesh/objects/cards/4s.glb<>uid://cffmq37h2y21o::::res://mesh/doors/e_book.tscn<>uid://712my4m5hv5o::::res://mesh/objects/cards/5b.glb<>uid://cf6vd587yydob::::res://mesh/doors/a_book.tscn<>uid://bpxcnrci24hpd::::res://mesh/objects/cards/5c.glb<>uid://dlhjp1l3y6mh1::::res://font/VT323-Regular.ttf<>uid://dl4ojtia0bduh::::res://mesh/doors/m_book.tscn<>uid://dhskw6re2yhx0::::res://mesh/doors/i_book.tscn<>uid://bd14ka65ivdr5::::res://mesh/rooms/penguin.tscn<>uid://cdot66uudnge2::::res://2D/objectIcon/newspaper_icon.png<>uid://bq3uwqfiqw0cw::::res://mesh/objects/cards/5d.glb<>uid://bckc6hhss2l5w::::res://mesh/furnitures/infamous3.tscn<>uid://c8i8n2k0omfuj::::res://mesh/objects/cards/5s.glb<>uid://byxpx88n0rrsu::::res://mesh/rooms/pierino.tscn<>uid://du4dvcr114l0u::::res://sounds/walking-sound-effect-272246.mp3<>uid://dpakrogq1xwlt::::res://mesh/objects/cards/6b.glb<>uid://ctws85psx31ya::::res://mesh/objects/cards/6c.glb<>uid://bj1vj46pgppux::::res://mesh/rooms/johnny.tscn<>uid://chhbaqqcjab3w::::res://2D/Plus.png<>uid://cm2x4hg2e4bqg::::res://mesh/objects/cards/6d.glb<>uid://b5cdki33ndq46::::res://mesh/furnitures/coat_hanger (1).glb<>res://scripts/InteractibleObjects/Camics.cs<>uid://cyq51qrp83xam::::res://mesh/objects/cards/6s.glb<>uid://bchrjwfpwaia::::res://mesh/rooms/giovannibattista.tscn<>uid://bmytb6n68pus0::::res://mesh/objects/cards/7b.glb<>uid://bv8tv6k36vn2j::::res://mesh/rooms/gennaro.tscn<>uid://cgj7gv2ufcb4q::::res://mesh/objects/cards/7c.glb<>uid://bcr1g8jul0al::::res://mesh/objects/cards/7s.glb<>uid://b1b1uabqdt0v5::::res://mesh/rooms/white_big.tscn<>uid://xl2t6cy6hevg::::res://mesh/rooms/stairs.tscn<>res://scripts/NPC/Thomas/Thomas.cs<>uid://brayhcvkugx75::::res://mesh/objects/cards/8b.glb<>res://scripts/NPC/Felice/FeliceDoor.cs<>uid://c05dt826vn8uk::::res://mesh/objects/cards/8c.glb<>uid://beg03tm08xhnk::::res://mesh/rooms/white_mid.tscn<>uid://djc2mgnhbn6hm::::res://mesh/objects/cards/8d.glb<>uid://bnfmb3qqye0eb::::res://mesh/rooms/white.tscn<>uid://bf4ryr6hyt2qm::::res://mesh/furnitures/offico.tscn<>uid://8am72xiqja0::::res://mesh/objects/document (1).glb<>uid://c4wlbmyc44fe3::::res://mesh/objects/cards/8s.glb<>uid://cqtmj87nj52ss::::res://mesh/rooms/white_hole.tscn<>uid://bqxymg488b6r7::::res://mesh/rooms/white_floor.tscn<>uid://cf0s5ggu1mtdr::::res://mesh/objects/cards/9b.glb<>uid://vuclyr7mn8qe::::res://mesh/furnitures/pill_bottle2.glb<>uid://cti6ojqj7sbk4::::res://mesh/objects/cards/9c.glb<>uid://bf8iii8w17vn::::res://mesh/furnitures/statue.glb<>uid://dy8ba443oa53i::::res://mesh/furnitures/bed.glb<>uid://wi7nc0kbiche::::res://mesh/furnitures/name_tag.glb<>uid://dwb6ldag51tgb::::res://mesh/objects/cards/9d.glb<>uid://cvv01y3w1mc6p::::res://mesh/objects/cards/9s.glb<>uid://cystyujeu4kvu::::res://mesh/objects/cards/10b.glb<>uid://bncdho6wir5b5::::res://mesh/objects/cards/10c.glb<>res://scripts/NPC/Gianmarco/GianmarcoDefaultDialog.cs<>res://shader/altraProva.gdshader<>uid://rn3innkdp84n::::res://mesh/furnitures/lamp2.glb<>res://scripts/GameObjects/Pill.cs<>res://scripts/NPC/Michele/MicheleDefaultDialog.cs<>uid://dygdo6o776ua1::::res://mesh/objects/cards/10d.glb<>uid://c5pigq20x6t7v::::res://mesh/objects/cards/10s.glb<>uid://b354cu5tf016b::::res://mesh/objects/pill (1).glb<>uid://bwmvrqcla73ow::::res://mesh/objects/cards/7d.glb<>uid://bqj4b6okg2xa1::::res://mesh/objects/pierpaolo.tscn<>res://scripts/CandleLight.cs<>uid://c6xlknf3ao0po::::res://mesh/people/sit_nurse.tscn<>uid://cygdaa3pucxqe::::res://mesh/furnitures/clock.tscn<>res://scripts/NPC/Michele/Dialog7.cs<>res://scripts/NPC/Michele/Michele.cs<>uid://cehv13pku1fwf::::res://mesh/furnitures/table.tscn<>uid://kevup7bvsw17::::res://mesh/people/chair.tscn<>uid://5uh4c1j1gtq3::::res://sounds/deep.mp3<>res://scripts/GameObjects/Candy.cs<>uid://cg8pul3fble3n::::res://mesh/objects/pope_portrait.tscn<>res://scripts/GameObjects/GameObjectObtainable.cs<>uid://drb7w08bsw7s4::::res://mesh/objects/candy (1).glb<>uid://cu8s4oywyav3g::::res://mesh/furnitures/floor_change_wall.glb<>res://scripts/NPC/Thomas/ThomasDeafaultDialog.cs<>res://scripts/NPC/Thomas/ThomasSecondDialog.cs<>uid://cugn0c8w5jd2q::::res://mesh/furnitures/umbrella_stand.glb<>uid://b147hg5opo31a::::res://mesh/people/crazy_man.glb<>res://scripts/NPC/Alfonso.cs<>uid://27ntg2qa3uhj::::res://2D/objectIcon/7d_icon.png<>uid://duxcsgql8mi7p::::res://mesh/furnitures/doctor_portrait.glb<>uid://bxvbxj5owgk3v::::res://scenes/ObtainItemAnimation.tscn<>uid://cfnrp1bsbslxj::::res://scenes/ArchiveType2.tscn<>uid://dp11nuubgaa8a::::res://scenes/ArchiveType3.tscn<>res://scripts/TextureRectScript.cs<>uid://d1d8cpcq6mybu::::res://mesh/furnitures/lil_table.glb<>uid://dh3e4frrhsxst::::res://2D/objectIcon/pill_icon.png<>uid://cmpdgbs2hngq6::::res://scenes/furni1.tscn<>res://scripts/GameObjects/GameObject.cs<>uid://8gvl4p60ojwe::::res://mesh/furnitures/whisky_bottle.glb<>res://scripts/InteractibleObjects/ReadableObject.cs<>uid://bxv0xmswj311v::::res://mesh/furnitures/glass.glb<>res://scripts/Doors/DoorDoctor.cs<>uid://cr8xw28tdkak5::::res://mesh/furnitures/pill_bottle.glb<>uid://chrmwjobajdg2::::res://sounds/rain-sound-188158.mp3<>res://scripts/NPC/Gianmarco/Gianmarco.cs<>uid://dlj1ty8pdr5dh::::res://mesh/furnitures/chandelier.glb<>uid://bwrnc7im0c2yj::::res://mesh/furnitures/alcool_paradise.glb<>uid://lc3drwknlb2f::::res://mesh/furnitures/lab_bed.glb<>uid://jc2ptxjs72my::::res://mesh/people/walking_nurse.tscn<>uid://bl1ipbhsw7f40::::res://mesh/rooms/floor_second_floor.glb<>uid://ohqe55fac0ls::::res://mesh/rooms/ceiling_second_floor.glb<>uid://wyu6cyp1m7ci::::res://2D/objectIcon/document_icon.png<>uid://b6utbkv02m6fn::::res://mesh/furnitures/document.glb<>uid://ea3suoranv3d::::res://mesh/doors/door_1.glb<>uid://chkmecn0yobmv::::res://mesh/doors/door_3.glb<>uid://vexx03adsomb::::res://mesh/doors/door_2.glb<>uid://cjrt5t04dgx4x::::res://scenes/StartingScene.tscn<>res://scripts/InteractibleObjects/Furni1.cs<>uid://b2dfln3i7r6cs::::res://mesh/furnitures/wheelchair.glb<>uid://cvkdgufbcj7p5::::res://mesh/doors/door_4.glb<>uid://btgh08cfhiak1::::res://mesh/doors/door_5.glb<>uid://bjxtaayy0b1m0::::res://mesh/doors/door_6.glb<>uid://dlgu5qoue4f2h::::res://scenes/menues.tscn<>uid://c235bqx80dpdo::::res://scenes/non_cut_scene.tscn
+main.tscn::PackedScene::9151972252826272549::1765304223::0::1::::<><>::res://scripts/Main.cs<>uid://b0sdkadoyt2np::::res://scenes/player.tscn<>uid://sdahqi07j0wx::::res://sounds/gothic-candlelight-gothic-mystery-soundtrack-1987.mp3<>res://Cut scene/Prima.ogv<>res://scripts/place/Asylum.cs<>res://scripts/NPC/Felice/Felice.cs<>uid://c41hqpl8tdc6g::::res://scenes/DialogLabel.tscn<>uid://c0fbc816hamtc::::res://2D/objectIcon/key_icon (1).png<>uid://bmdyyhavahk6u::::res://scenes/door.tscn<>res://scripts/GameObjects/GameObjectPickable.cs<>uid://11vo6nm1p4xh::::res://mesh/objects/key2.glb<>uid://4pr08mtnymnf::::res://mesh/doors/door_big.glb<>uid://dtknfkfjtwiwh::::res://scenes/laboratory.tscn<>uid://chaktgp7r5qct::::res://mesh/background.tscn<>uid://cpcljoncfhp47::::res://mesh/objects/danielito.tscn<>res://scripts/InteractibleObjects/Paint.cs<>res://scripts/InteractibleObjects/InteractibleObject.cs<>uid://bifbqa5wia0mn::::res://mesh/people/bathroom_nurse.glb<>uid://bm06doqscfpw3::::res://mesh/objects/deus_ex_7_denari.tscn<>uid://c0r1i8tg76jbo::::res://scenes/AAAAAAAAAAAAAAA.tscn<>uid://bcl71s3582w0f::::res://2D/objectIcon/key2_icon.png<>uid://bxniaxekp5p35::::res://mesh/furnitures/pot.glb<>uid://bi4lwlrg8dmxd::::res://mesh/furnitures/cup.glb<>uid://dxq6mnnswc7bq::::res://mesh/rooms/hall_wall_3.glb<>uid://gt3wbywctwhb::::res://mesh/rooms/tiny_floor.glb<>uid://boxic73gfnxda::::res://mesh/rooms/pino.tscn<>res://Cut scene/Finale.ogv<>uid://b2fghulbnj7wg::::res://Animations/tiny_floor_top.glb<>uid://7fvpqsgbaynv::::res://mesh/rooms/genoveffo.tscn<>uid://u6dbf441b5t5::::res://mesh/rooms/franco.tscn<>uid://xvyxpgsjv5x3::::res://mesh/furnitures/giovanni.tscn<>uid://c2ri08roapntc::::res://mesh/objects/cards/30_cards.glb<>uid://dh3key1r62qgr::::res://mesh/rooms/giannisperti.tscn<>res://scripts/Doors/BigDoor.cs<>uid://cwxshfdxt8hc::::res://2D/objectIcon/candy_icon.png<>uid://cicqpa0boh8h::::res://mesh/rooms/paolobitta.tscn<>uid://brgwsf257gio0::::res://mesh/rooms/paperino.tscn<>res://scripts/NPC/Michele/Cards.cs<>uid://bsb3entr5qany::::res://scenes/ArchiveType1.tscn<>uid://t8nvkmpch85m::::res://mesh/rooms/sfriz.tscn<>uid://hmwexf75yo37::::res://mesh/objects/cards/1b.glb<>uid://bf22yxqp4f0wg::::res://mesh/objects/newspaper.glb<>res://scripts/InteractibleObjects/Library.cs<>uid://s2r01f3r0dcy::::res://mesh/objects/cards/1c.glb<>uid://dcms7hocx6i2e::::res://mesh/objects/cards/1d.glb<>uid://bm27gy62yckib::::res://mesh/objects/cards/1s.glb<>uid://dtxf0y4k5nkh4::::res://mesh/rooms/giovanni_2.tscn<>uid://bfu0tfc45qefc::::res://mesh/rooms/pedro.tscn<>uid://bckb5n3j7c6e8::::res://mesh/objects/cards/2b.glb<>uid://i8k4r76ursrb::::res://2D/Occhiett.png<>uid://673om8jc3rsd::::res://2D/DefHand.png<>uid://c327t3krcaomb::::res://mesh/objects/cards/2c.glb<>uid://bbtoli5ynsn1r::::res://mesh/rooms/alejandro.tscn<>uid://cof3ou4bj5qh0::::res://mesh/objects/cards/2d.glb<>uid://4ulysy8850xg::::res://2D/DefGrab.png<>uid://bef0xwk3e1xld::::res://mesh/rooms/wood.glb<>uid://darntnls55b8l::::res://mesh/objects/cards/2s.glb<>uid://b8s12crrk88e5::::res://mesh/objects/cards/3b.glb<>uid://d2nagy2gofyvo::::res://mesh/doors/infame.tscn<>uid://dlsxu4me181q7::::res://mesh/objects/cards/3c.glb<>res://scripts/InteractibleObjects/Shelve.cs<>uid://bf86vfh882i2f::::res://mesh/furnitures/toilette.glb<>uid://byc7m6ny5qw5u::::res://mesh/objects/cards/3d.glb<>uid://d3dfvj0rxuc2x::::res://mesh/objects/cards/3s.glb<>res://scripts/NPC/Felice/FeliceKeyDialog.cs<>res://scripts/NPC/Felice/FeliceAnswerNoDialog.cs<>uid://bncr736snsqs0::::res://mesh/objects/cards/4b.glb<>uid://bhirpgifqgsou::::res://mesh/objects/cards/4c.glb<>uid://dsby6mclug3l4::::res://sounds/bookshelf_door.mp3<>uid://dgym5ehfxa1n2::::res://mesh/doors/s_book.tscn<>uid://bafwf0pw4l4x5::::res://mesh/objects/cards/4d.glb<>uid://doy47q74k6bgi::::res://mesh/objects/cards/4s.glb<>uid://cffmq37h2y21o::::res://mesh/doors/e_book.tscn<>uid://712my4m5hv5o::::res://mesh/objects/cards/5b.glb<>uid://cf6vd587yydob::::res://mesh/doors/a_book.tscn<>uid://bpxcnrci24hpd::::res://mesh/objects/cards/5c.glb<>uid://dlhjp1l3y6mh1::::res://font/VT323-Regular.ttf<>uid://dl4ojtia0bduh::::res://mesh/doors/m_book.tscn<>uid://dhskw6re2yhx0::::res://mesh/doors/i_book.tscn<>uid://bd14ka65ivdr5::::res://mesh/rooms/penguin.tscn<>uid://cdot66uudnge2::::res://2D/objectIcon/newspaper_icon.png<>uid://bq3uwqfiqw0cw::::res://mesh/objects/cards/5d.glb<>uid://bckc6hhss2l5w::::res://mesh/furnitures/infamous3.tscn<>uid://c8i8n2k0omfuj::::res://mesh/objects/cards/5s.glb<>uid://byxpx88n0rrsu::::res://mesh/rooms/pierino.tscn<>uid://du4dvcr114l0u::::res://sounds/walking-sound-effect-272246.mp3<>uid://dpakrogq1xwlt::::res://mesh/objects/cards/6b.glb<>uid://ctws85psx31ya::::res://mesh/objects/cards/6c.glb<>uid://bj1vj46pgppux::::res://mesh/rooms/johnny.tscn<>uid://chhbaqqcjab3w::::res://2D/Plus.png<>uid://cm2x4hg2e4bqg::::res://mesh/objects/cards/6d.glb<>uid://b5cdki33ndq46::::res://mesh/furnitures/coat_hanger (1).glb<>res://scripts/InteractibleObjects/Camics.cs<>uid://cyq51qrp83xam::::res://mesh/objects/cards/6s.glb<>uid://bchrjwfpwaia::::res://mesh/rooms/giovannibattista.tscn<>uid://bmytb6n68pus0::::res://mesh/objects/cards/7b.glb<>uid://bv8tv6k36vn2j::::res://mesh/rooms/gennaro.tscn<>uid://cgj7gv2ufcb4q::::res://mesh/objects/cards/7c.glb<>uid://bcr1g8jul0al::::res://mesh/objects/cards/7s.glb<>uid://b1b1uabqdt0v5::::res://mesh/rooms/white_big.tscn<>uid://xl2t6cy6hevg::::res://mesh/rooms/stairs.tscn<>res://scripts/NPC/Thomas/Thomas.cs<>uid://brayhcvkugx75::::res://mesh/objects/cards/8b.glb<>res://scripts/NPC/Felice/FeliceDoor.cs<>uid://c05dt826vn8uk::::res://mesh/objects/cards/8c.glb<>uid://beg03tm08xhnk::::res://mesh/rooms/white_mid.tscn<>uid://djc2mgnhbn6hm::::res://mesh/objects/cards/8d.glb<>uid://bnfmb3qqye0eb::::res://mesh/rooms/white.tscn<>uid://bf4ryr6hyt2qm::::res://mesh/furnitures/offico.tscn<>uid://8am72xiqja0::::res://mesh/objects/document (1).glb<>uid://c4wlbmyc44fe3::::res://mesh/objects/cards/8s.glb<>uid://cqtmj87nj52ss::::res://mesh/rooms/white_hole.tscn<>uid://bqxymg488b6r7::::res://mesh/rooms/white_floor.tscn<>uid://cf0s5ggu1mtdr::::res://mesh/objects/cards/9b.glb<>uid://vuclyr7mn8qe::::res://mesh/furnitures/pill_bottle2.glb<>uid://cti6ojqj7sbk4::::res://mesh/objects/cards/9c.glb<>uid://bf8iii8w17vn::::res://mesh/furnitures/statue.glb<>uid://dy8ba443oa53i::::res://mesh/furnitures/bed.glb<>uid://wi7nc0kbiche::::res://mesh/furnitures/name_tag.glb<>uid://dwb6ldag51tgb::::res://mesh/objects/cards/9d.glb<>uid://cvv01y3w1mc6p::::res://mesh/objects/cards/9s.glb<>uid://cystyujeu4kvu::::res://mesh/objects/cards/10b.glb<>uid://bncdho6wir5b5::::res://mesh/objects/cards/10c.glb<>res://scripts/NPC/Gianmarco/GianmarcoDefaultDialog.cs<>res://shader/altraProva.gdshader<>uid://rn3innkdp84n::::res://mesh/furnitures/lamp2.glb<>res://scripts/GameObjects/Pill.cs<>res://scripts/NPC/Michele/MicheleDefaultDialog.cs<>uid://dygdo6o776ua1::::res://mesh/objects/cards/10d.glb<>uid://c5pigq20x6t7v::::res://mesh/objects/cards/10s.glb<>uid://b354cu5tf016b::::res://mesh/objects/pill (1).glb<>uid://bwmvrqcla73ow::::res://mesh/objects/cards/7d.glb<>uid://bqj4b6okg2xa1::::res://mesh/objects/pierpaolo.tscn<>res://scripts/CandleLight.cs<>uid://c6xlknf3ao0po::::res://mesh/people/sit_nurse.tscn<>uid://cygdaa3pucxqe::::res://mesh/furnitures/clock.tscn<>res://scripts/NPC/Michele/Dialog7.cs<>res://scripts/NPC/Michele/Michele.cs<>uid://cehv13pku1fwf::::res://mesh/furnitures/table.tscn<>uid://kevup7bvsw17::::res://mesh/people/chair.tscn<>uid://5uh4c1j1gtq3::::res://sounds/deep.mp3<>res://scripts/GameObjects/Candy.cs<>uid://cg8pul3fble3n::::res://mesh/objects/pope_portrait.tscn<>res://scripts/GameObjects/GameObjectObtainable.cs<>uid://drb7w08bsw7s4::::res://mesh/objects/candy (1).glb<>uid://cu8s4oywyav3g::::res://mesh/furnitures/floor_change_wall.glb<>res://scripts/NPC/Thomas/ThomasDeafaultDialog.cs<>res://scripts/NPC/Thomas/ThomasSecondDialog.cs<>uid://cugn0c8w5jd2q::::res://mesh/furnitures/umbrella_stand.glb<>uid://b147hg5opo31a::::res://mesh/people/crazy_man.glb<>res://scripts/NPC/Alfonso.cs<>uid://27ntg2qa3uhj::::res://2D/objectIcon/7d_icon.png<>uid://duxcsgql8mi7p::::res://mesh/furnitures/doctor_portrait.glb<>uid://bxvbxj5owgk3v::::res://scenes/ObtainItemAnimation.tscn<>uid://cfnrp1bsbslxj::::res://scenes/ArchiveType2.tscn<>uid://dp11nuubgaa8a::::res://scenes/ArchiveType3.tscn<>res://scripts/TextureRectScript.cs<>uid://d1d8cpcq6mybu::::res://mesh/furnitures/lil_table.glb<>uid://dh3e4frrhsxst::::res://2D/objectIcon/pill_icon.png<>uid://cmpdgbs2hngq6::::res://scenes/furni1.tscn<>res://scripts/GameObjects/GameObject.cs<>uid://8gvl4p60ojwe::::res://mesh/furnitures/whisky_bottle.glb<>res://scripts/InteractibleObjects/ReadableObject.cs<>uid://bxv0xmswj311v::::res://mesh/furnitures/glass.glb<>res://scripts/Doors/DoorDoctor.cs<>uid://cr8xw28tdkak5::::res://mesh/furnitures/pill_bottle.glb<>uid://chrmwjobajdg2::::res://sounds/rain-sound-188158.mp3<>res://scripts/NPC/Gianmarco/Gianmarco.cs<>uid://dlj1ty8pdr5dh::::res://mesh/furnitures/chandelier.glb<>uid://bwrnc7im0c2yj::::res://mesh/furnitures/alcool_paradise.glb<>uid://lc3drwknlb2f::::res://mesh/furnitures/lab_bed.glb<>uid://jc2ptxjs72my::::res://mesh/people/walking_nurse.tscn<>uid://bl1ipbhsw7f40::::res://mesh/rooms/floor_second_floor.glb<>uid://ohqe55fac0ls::::res://mesh/rooms/ceiling_second_floor.glb<>uid://wyu6cyp1m7ci::::res://2D/objectIcon/document_icon.png<>uid://b6utbkv02m6fn::::res://mesh/furnitures/document.glb<>uid://ea3suoranv3d::::res://mesh/doors/door_1.glb<>uid://chkmecn0yobmv::::res://mesh/doors/door_3.glb<>uid://vexx03adsomb::::res://mesh/doors/door_2.glb<>uid://cjrt5t04dgx4x::::res://scenes/StartingScene.tscn<>res://scripts/roba per la tesi/Test.cs<>res://scripts/roba per la tesi/Test2.cs<>res://scripts/InteractibleObjects/Furni1.cs<>uid://b2dfln3i7r6cs::::res://mesh/furnitures/wheelchair.glb<>uid://cvkdgufbcj7p5::::res://mesh/doors/door_4.glb<>uid://btgh08cfhiak1::::res://mesh/doors/door_5.glb<>uid://bjxtaayy0b1m0::::res://mesh/doors/door_6.glb<>uid://dlgu5qoue4f2h::::res://scenes/menues.tscn<>uid://ckayv8ekgv02q::::res://scenes/DialogTextEdit.tscn<>uid://c235bqx80dpdo::::res://scenes/non_cut_scene.tscn
 menu.tscn::PackedScene::6893193200987420620::1761841688::0::1::::<><>::res://scripts/Menues/MenuScript.cs<>res://shader/blur.gdshader<>uid://dlhjp1l3y6mh1::::res://font/VT323-Regular.ttf<>uid://bimxnkeqf6pc0::::res://2D/menues/BackMenu.png
 menues.tscn::PackedScene::7944994374210558681::1762722719::0::1::::<><>::res://scripts/Menues/Menues.cs<>uid://dyyr3vx1ide5q::::res://scenes/impostazioni.tscn<>uid://c5hd5c7t66tyi::::res://scenes/menu.tscn<>uid://bcc5krs6bsk6r::::res://scenes/inventario.tscn<>uid://5qwvx61tbfhx::::res://scenes/Commands menu.tscn
-non_cut_scene.tscn::PackedScene::6727566895740665656::1762880341::0::1::::<><>::uid://csakogidat51e::::res://mesh/furnitures/franpeppe.tscn<>uid://bqj4b6okg2xa1::::res://mesh/objects/pierpaolo.tscn<>res://scripts/CandleLight.cs
+non_cut_scene.tscn::PackedScene::6727566895740665656::1765304223::0::1::::<><>::uid://csakogidat51e::::res://mesh/furnitures/franpeppe.tscn<>uid://bqj4b6okg2xa1::::res://mesh/objects/pierpaolo.tscn<>res://scripts/CandleLight.cs
 nurse.tscn::PackedScene::2658506682219761167::1760016870::0::1::::<><>::uid://65om7sds1kh6::::res://Animations/walking_nurse.glb<>uid://du4dvcr114l0u::::res://sounds/walking-sound-effect-272246.mp3<>res://scripts/InteractibleObjects/InteractibleObject.cs
 ObtainItemAnimation.tscn::PackedScene::4044218330175707717::1762516014::0::1::::<><>::uid://dlhjp1l3y6mh1::::res://font/VT323-Regular.ttf<>res://scripts/GameObjects/ObtainItemAnimation.cs<>res://shader/blur.gdshader<>uid://b2c0sfdv5aqo4::::res://scenes/gameObjectCamera.tscn
 personaggio_camminante.tscn::PackedScene::39795486064942266::1760016870::0::1::::<><>::uid://cvmke0pffygp3::::res://Animations/personaggio_camminante.glb
 player.tscn::PackedScene::4178500588437694669::1762880341::0::1::::<><>::res://scripts/Player.cs<>uid://du4dvcr114l0u::::res://sounds/walking-sound-effect-272246.mp3<>res://scripts/PlayerRayCast3d.cs
 startingDoctor.tscn::PackedScene::7487186711333578578::1760016870::0::1::::<><>::uid://65om7sds1kh6::::res://Animations/walking_nurse.glb<>uid://bqj4b6okg2xa1::::res://mesh/objects/pierpaolo.tscn<>uid://csakogidat51e::::res://mesh/furnitures/franpeppe.tscn<>res://scripts/CandleLight.cs
 startingMenu.tscn::PackedScene::4626585248447498543::1760016870::0::1::::<><>::res://scripts/StartingMenu.cs<>uid://dlhjp1l3y6mh1::::res://font/VT323-Regular.ttf<>uid://dl6u77yxbs0t4::::res://scenes/scenaDaCambiareNome.tscn
-StartingScene.tscn::PackedScene::5440843616512882317::1762880341::0::1::::<><>::res://scripts/StartingMenu.cs<>uid://c3csalvmetih3::::res://mesh/people/doctor.tscn<>uid://csakogidat51e::::res://mesh/furnitures/franpeppe.tscn<>uid://bqj4b6okg2xa1::::res://mesh/objects/pierpaolo.tscn<>res://scripts/CandleLight.cs<>uid://c41hqpl8tdc6g::::res://scenes/DialogLabel.tscn<>res://scripts/IntroDialog.cs<>uid://dlhjp1l3y6mh1::::res://font/VT323-Regular.ttf<>uid://dlmlg7pjo73o4::::res://2D/title_final.png<>uid://7l1smjeixe1t::::res://sounds/mysterious-piano-and-violin-atmosphere-143149.mp3<>uid://boddhocml72n3::::res://sounds/reverb.mp3<>uid://bdgb7pi85w0jp::::res://mesh/people/doctorEnding.glb
+StartingScene.tscn::PackedScene::5440843616512882317::1765304223::0::1::::<><>::res://scripts/StartingMenu.cs<>uid://c3csalvmetih3::::res://mesh/people/doctor.tscn<>uid://csakogidat51e::::res://mesh/furnitures/franpeppe.tscn<>uid://bqj4b6okg2xa1::::res://mesh/objects/pierpaolo.tscn<>res://scripts/CandleLight.cs<>uid://c41hqpl8tdc6g::::res://scenes/DialogLabel.tscn<>res://scripts/IntroDialog.cs<>uid://dlhjp1l3y6mh1::::res://font/VT323-Regular.ttf<>uid://dlmlg7pjo73o4::::res://2D/title_final.png<>uid://7l1smjeixe1t::::res://sounds/mysterious-piano-and-violin-atmosphere-143149.mp3<>uid://boddhocml72n3::::res://sounds/reverb.mp3<>uid://bdgb7pi85w0jp::::res://mesh/people/doctorEnding.glb
 StoImpazzendo.tscn::PackedScene::6769438568677696723::1762169991::0::1::::<><>::uid://c41hqpl8tdc6g::::res://scenes/DialogLabel.tscn
 titoliDiCoda.tscn::PackedScene::7945976507688385551::1762712304::0::1::::<><>::uid://dlhjp1l3y6mh1::::res://font/VT323-Regular.ttf
-::res://scripts/::1762712836
+::res://scripts/::1764168076
 CandleLight.cs::CSharpScript::-1::1760016870::0::1::::<>OmniLight3D<>::
 Dialog.cs::CSharpScript::-1::1760016870::0::1::::<>Node<>::
 DialogLabel.cs::CSharpScript::-1::1762455554::0::1::::<>Label<>::
@@ -520,23 +521,23 @@ Furni2.cs::CSharpScript::-1::1760018590::0::1::::<>Node3D<>::
 Furni3.cs::CSharpScript::-1::1760022804::0::1::::<>Node3D<>::
 IntroDialog.cs::CSharpScript::-1::1760016870::0::1::::<>Node<>::
 Laboratory.cs::CSharpScript::-1::1762439951::0::1::::<>Node3D<>::
-Main.cs::CSharpScript::-1::1762718114::0::1::::<>Node3D<>::
+Main.cs::CSharpScript::-1::1764697169::0::1::::<>Node3D<>::
 NonCutScene.cs::CSharpScript::-1::1762714956::0::1::::<>Node3D<>::
 Player.cs::CSharpScript::-1::1760446013::0::1::::<>CharacterBody3D<>::
 PlayerRayCast3d.cs::CSharpScript::-1::1762455010::0::1::::<>RayCast3D<>::
-StartingMenu.cs::CSharpScript::-1::1762718024::0::1::::<>Node<>::
+StartingMenu.cs::CSharpScript::-1::1764167881::0::1::::<>Node<>::
 TextureRectScript.cs::CSharpScript::-1::1760016870::0::1::::<>TextureRect<>::
-::res://scripts/Archives/::1762364846
+::res://scripts/Archives/::1764094688
 Archive.cs::CSharpScript::-1::1760016870::0::1::::<>Node3D<>::
 ArchiveDrawer.cs::CSharpScript::-1::1760016870::0::1::::<>MeshInstance3D<>::
 DrawerWithObject.cs::CSharpScript::-1::1760016870::0::1::::<>MeshInstance3D<>::
-::res://scripts/Doors/::1762364846
+::res://scripts/Doors/::1764094688
 BigDoor.cs::CSharpScript::-1::1762710480::0::1::::<>Node3D<>::
 Door.cs::CSharpScript::-1::1762686893::0::1::::<>Node3D<>::
 DoorBussable.cs::CSharpScript::-1::1762686889::0::1::::<>Node3D<>::
 DoorClosedWithKey.cs::CSharpScript::-1::1760016870::0::1::::<>Node3D<>::
 DoorDoctor.cs::CSharpScript::-1::1761664556::0::1::::<>Node3D<>::
-::res://scripts/GameObjects/::1762364846
+::res://scripts/GameObjects/::1764094688
 Candy.cs::CSharpScript::-1::1762454275::0::1::::<>Node3D<>::
 GameObject.cs::CSharpScript::-1::1762453384::0::1::::<>Node3D<>::
 GameObjectCamera.cs::CSharpScript::-1::1760016870::0::1::::<>Node3D<>::
@@ -545,52 +546,56 @@ GameObjectPickable.cs::CSharpScript::-1::1762431412::0::1::::<>Node3D<>::
 IConsumable.cs::CSharpScript::-1::1760016870::0::1::::<><>::
 ObtainItemAnimation.cs::CSharpScript::-1::1762430584::0::1::::<>Node2D<>::
 Pill.cs::CSharpScript::-1::1762454053::0::1::::<>Node3D<>::
-::res://scripts/InteractibleObjects/::1762876311
+::res://scripts/InteractibleObjects/::1765295060
 Camics.cs::CSharpScript::-1::1762432196::0::1::::<>Node3D<>::
-Clock.cs::CSharpScript::-1::1762876311::0::1::::<>Node3D<>::
+Clock.cs::CSharpScript::-1::1765295060::0::1::::<>Node3D<>::
 Furni1.cs::CSharpScript::-1::1762166674::0::1::::<>Node3D<>::
 InteractibleObject.cs::CSharpScript::-1::1762431053::0::1::::<>StaticBody3D<>::
 Library.cs::CSharpScript::-1::1760016870::0::1::::<>Node3D<>::
 Paint.cs::CSharpScript::-1::1760016870::0::1::::<>Node3D<>::
 ReadableObject.cs::CSharpScript::-1::1760016870::0::1::::<>Node3D<>::
 Shelve.cs::CSharpScript::-1::1762706732::0::1::::<>Node3D<>::
-::res://scripts/Menues/::1762529177
+::res://scripts/Menues/::1764094688
 CommandsMenu.cs::CSharpScript::-1::1762722669::0::1::::<>Node2D<>::
 Inventory.cs::CSharpScript::-1::1762451807::0::1::::<>Node2D<>::
 Menues.cs::CSharpScript::-1::1762455913::0::1::::<>Node2D<>::
 MenuScript.cs::CSharpScript::-1::1761921905::0::1::::<>Node2D<>::
 SettingsScript.cs::CSharpScript::-1::1762687247::0::1::::<>Node2D<>::
-::res://scripts/NPC/::1762364846
+::res://scripts/NPC/::1764094688
 Alfonso.cs::CSharpScript::-1::1760016870::0::1::::<>Node3D<>::
-::res://scripts/NPC/Felice/::1762364846
+::res://scripts/NPC/Felice/::1764094688
 Felice.cs::CSharpScript::-1::1762717759::0::1::::<>Node3D<>::
 FeliceAnswerNoDialog.cs::CSharpScript::-1::1760016870::0::1::::<>Node<>::
 FeliceDoor.cs::CSharpScript::-1::1762280495::0::1::::<>Node3D<>::
 FeliceKeyDialog.cs::CSharpScript::-1::1760016870::0::1::::<>Node<>::
-::res://scripts/NPC/Gianmarco/::1762364846
+::res://scripts/NPC/Gianmarco/::1764094688
 Gianmarco.cs::CSharpScript::-1::1762687047::0::1::::<>Node3D<>::
 GianmarcoDefaultDialog.cs::CSharpScript::-1::1762432017::0::1::::<>Node<>::
-::res://scripts/NPC/Michele/::1762364846
+::res://scripts/NPC/Michele/::1764094688
 Cards.cs::CSharpScript::-1::1760016870::0::1::::<>Node3D<>::
 Dialog7.cs::CSharpScript::-1::1760016870::0::1::::<>Node<>::
 Michele.cs::CSharpScript::-1::1761844023::0::1::::<>Node3D<>::
 MicheleDefaultDialog.cs::CSharpScript::-1::1760016870::0::1::::<>Node<>::
-::res://scripts/NPC/Thomas/::1762364846
+::res://scripts/NPC/Thomas/::1764094688
 Thomas.cs::CSharpScript::-1::1762432176::0::1::::<>Node3D<>::
 ThomasDeafaultDialog.cs::CSharpScript::-1::1760016870::0::1::::<>Node<>::
 ThomasSecondDialog.cs::CSharpScript::-1::1760016870::0::1::::<>Node<>::
-::res://scripts/place/::1762364846
+::res://scripts/place/::1764094688
 Asylum.cs::CSharpScript::-1::1762711258::0::1::::<>Node3D<>::
-::res://shader/::1762949849
-altraProva (2).gdshader::Shader::-1::1762949849::0::1::::<><>::
-altraProva.gdshader::Shader::-1::1762949849::0::1::::<><>::
-blur.gdshader::Shader::-1::1762876311::0::1::::<><>::
+::res://scripts/roba per la tesi/::1764774190
+DialogTextEdit.cs::CSharpScript::-1::1765304215::0::1::::<>TextEdit<>::
+Test2.cs::CSharpScript::-1::1764774283::0::1::::<>Node3D<>::
+Test.cs::CSharpScript::-1::1764781540::0::1::::<>Node3D<>::
+::res://shader/::1765304412
+altraProva (2).gdshader::Shader::-1::1765304412::0::1::::<><>::
+altraProva.gdshader::Shader::-1::1765304412::0::1::::<><>::
+blur.gdshader::Shader::-1::1765295060::0::1::::<><>::
 franco.gdshader::Shader::-1::1760016870::0::1::::<><>::
 gla.gdshader::Shader::-1::1760016870::0::1::::<><>::
 glagla.gdshader::Shader::-1::1760016870::0::1::::<><>::
 prova.gdshader::Shader::-1::1760016870::0::1::::<><>::
 quattro.gdshader::Shader::-1::1760016870::0::1::::<><>::
-::res://sounds/::1762364846
+::res://sounds/::1764094689
 01. Light  -  Simple and Clean (from Kingdom Hearts).mp3::AudioStreamMP3::9053462957608780459::1760016870::1761473844::1::::<><>::
 bookshelf_door.mp3::AudioStreamMP3::8426238815651988307::1760016870::1761473844::1::::<><>::
 closing_door.mp3::AudioStreamMP3::2130872462376486347::1760016870::1761473844::1::::<><>::

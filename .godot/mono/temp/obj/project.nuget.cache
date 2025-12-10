@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "akaLvb+x6CrrjLmEAkihynM33wvOXii0k6cxrWUH4i9v7DrFEF8bt62hvp6iCMAc5aeJmpNGAnxXYIMXUJ196A==",
+  "dgSpecHash": "7GcyIlqu+9XOcH05dXha1r+IhZvsXyV7WR3mug6UFcgYAvetzRrueJ6hDTMJ0Zrzb2NEedN70Q/D15Envzm9Ew==",
   "success": true,
-  "projectFilePath": "C:\\Users\\felic\\Desktop\\SviluppoVideosviluppi\\Alter Ego\\ProgettoSviluppoVideosviluppi\\Godot.csproj",
+  "projectFilePath": "C:\\Users\\felic\\Desktop\\Codici\\Godot\\tesi\\Godot.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\felic\\.nuget\\packages\\godot.sourcegenerators\\4.3.0\\godot.sourcegenerators.4.3.0.nupkg.sha512",
     "C:\\Users\\felic\\.nuget\\packages\\godotsharp\\4.3.0\\godotsharp.4.3.0.nupkg.sha512",

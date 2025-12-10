@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\felic\\Desktop\\SviluppoVideosviluppi\\Alter Ego\\ProgettoSviluppoVideosviluppi\\Godot.csproj": {}
+    "C:\\Users\\felic\\Desktop\\Codici\\Godot\\tesi\\Godot.csproj": {}
   },
   "projects": {
-    "C:\\Users\\felic\\Desktop\\SviluppoVideosviluppi\\Alter Ego\\ProgettoSviluppoVideosviluppi\\Godot.csproj": {
+    "C:\\Users\\felic\\Desktop\\Codici\\Godot\\tesi\\Godot.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\felic\\Desktop\\SviluppoVideosviluppi\\Alter Ego\\ProgettoSviluppoVideosviluppi\\Godot.csproj",
+        "projectUniqueName": "C:\\Users\\felic\\Desktop\\Codici\\Godot\\tesi\\Godot.csproj",
         "projectName": "Godot",
-        "projectPath": "C:\\Users\\felic\\Desktop\\SviluppoVideosviluppi\\Alter Ego\\ProgettoSviluppoVideosviluppi\\Godot.csproj",
+        "projectPath": "C:\\Users\\felic\\Desktop\\Codici\\Godot\\tesi\\Godot.csproj",
         "packagesPath": "C:\\Users\\felic\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\felic\\Desktop\\SviluppoVideosviluppi\\Alter Ego\\ProgettoSviluppoVideosviluppi\\.godot\\mono\\temp\\obj\\",
+        "outputPath": "C:\\Users\\felic\\Desktop\\Codici\\Godot\\tesi\\.godot\\mono\\temp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Users\\felic\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder"

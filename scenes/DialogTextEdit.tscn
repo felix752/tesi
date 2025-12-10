@@ -1,0 +1,28 @@
+[gd_scene load_steps=3 format=3 uid="uid://ckayv8ekgv02q"]
+
+[ext_resource type="Script" path="res://scripts/roba per la tesi/DialogTextEdit.cs" id="1_0kpm1"]
+[ext_resource type="FontFile" uid="uid://dlhjp1l3y6mh1" path="res://font/VT323-Regular.ttf" id="1_mbd2l"]
+
+[node name="TextEdit" type="TextEdit" node_paths=PackedStringArray("client")]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 155.0
+offset_top = 500.0
+offset_right = -155.0
+offset_bottom = -40.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_force_pass_scroll_events = false
+theme_override_constants/line_spacing = 0
+theme_override_fonts/font = ExtResource("1_mbd2l")
+theme_override_font_sizes/font_size = 34
+placeholder_text = "Parla"
+wrap_mode = 1
+scroll_smooth = true
+script = ExtResource("1_0kpm1")
+client = NodePath("HTTPRequest")
+
+[node name="HTTPRequest" type="HTTPRequest" parent="."]
+
+[connection signal="request_completed" from="HTTPRequest" to="." method="OnRequestCompleted"]

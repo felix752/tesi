@@ -31,6 +31,7 @@ public partial class Main : Node3D
 	[Export] private Gianmarco gianmarco;
 	[Export] private Node2D obtainItemAnimation;
 	[Export] private DialogLabel textEdit;
+	[Export] private DialogTextEdit testEdit;
 	[Export] private SubViewport subViewport;
 	[Export] private TextureRect textureRect;
 	[Export] private StartingMenu startingMenu;
@@ -57,7 +58,7 @@ public partial class Main : Node3D
 
 		lockInventory = false;
 		textEdit.Visible = false;
-
+		testEdit.Visible = false;
 		asylum.Visible = true;
 
 		asylum.GetParent().RemoveChild(asylum);
@@ -107,7 +108,7 @@ public partial class Main : Node3D
 	{
 		this.pointer.Visible = true;
 
-		//subViewport.RemoveChild(startingMenu);
+		subViewport.RemoveChild(startingMenu);
 		subViewport.AddChild(asylum);
 		subViewport.RemoveChild(nonCutScene);
 		animationPlayer.Play("new_animation");
@@ -195,6 +196,18 @@ public partial class Main : Node3D
 		asylum.ChangeEffectVolume(value);
 		player.OnEffectsValueChanged(value/3);
 		textEdit.OnEffectsValueChanged(value);
+    }
+
+	public void LockMenues()
+    {
+        this.menues.SetProcessInput(false);
+        this.menues.SetProcessUnhandledInput(false);
+    }
+
+	public void UnlockMenues()
+    {
+        this.menues.SetProcessInput(true);
+        this.menues.SetProcessUnhandledInput(true);
     }
 
 
